@@ -1,0 +1,67 @@
+
+/* Para deixar o layout ocupando até o limite
+ * do canto da tela */
+.container-fluid{
+
+	padding:0;
+}
+
+
+/* Estilo do nav superior */
+.navbar-nav{
+	background-color:#3a3a3a;
+	
+	color:#fff;
+}
+
+.navbar-inverse{
+	background-color:#fff;
+	color:#3a3a3a;
+}
+
+/* Estilo do texto do nav do titulo */
+.nav-brand{
+	font-size:18px;
+
+	color:#fff;
+}
+
+/* Para centralizer o titulo do nav superior */
+.nav-header{
+
+	min-height:50px;
+}
+/* Para remover os efeitos de hover do link */
+a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-brand{
+
+	font-size:24px;
+}
+
+.glyphicon.glyphicon-dot:before {
+	    content: "\25cf";
+		    font-size: 1.5em;
+			}
+						
+
+.orange { 
+	color: #E97F02;
+}
+
+.yellow {
+	color:#F8CA00;
+}
+
+.purple {
+	color:#490A3D;
+}
+
+.green{
+
+color:#8A9B0F;
+
+}

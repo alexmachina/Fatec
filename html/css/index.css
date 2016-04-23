@@ -1,0 +1,34 @@
+nav {
+	background-color:gray; 
+}
+
+.logo-nav {
+	font-size:32px;
+	top:8px;
+}
+
+body{
+	background-color:#f3f3f3;
+	}
+
+	li > a {
+		color:white;
+	}
+
+	.nav-baixo > li > a {
+		color:#3a3a3a;
+	}
+
+
+	.f-center{
+		margin:0 auto;
+		float:none;
+	}
+
+
+
+.nav-baixo{
+	background-color:#fff;
+	color:#3a3a3a;
+
+}
