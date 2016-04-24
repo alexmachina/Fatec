@@ -38,8 +38,115 @@ body{
 	padding-left:20px;
 }
 
-.post{
-	height:200px;
+.articles-list{
+	padding-left:0;
+}
+
+/* Estilos gerais */
+.item-container{
+	min-height:200px;
 	background-color:white;
+	padding:0px;
+
+	border:1px solid #EAE0E0;
+}
+.item{
+	text-decoration:none;
+	list-style:none;
+	margin-top:35px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+
+.item-header{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family:Helvetica;
 
 }
+
+.item h1 {
+	font-size:22px;
+	margin:0;
+	line-height:1;
+	font-weight: bolder;
+	text-align:center;
+}
+.item-title{
+	max-height:150px;
+	min-height:150px;
+	overflow:hidden;
+}
+
+.item-title h2 {
+	padding-left:15px;
+	font-weight:bold;
+	padding-bottom:25px;
+}
+
+.item-title h2 a {
+	color:black;
+}
+
+.item footer{
+	padding-left:15px;
+	padding-bottom:15px;
+	padding-top:25px;
+}
+
+/* Estilos específicos (Basicamente só aplica cores) */
+.item.mobile h1 a{
+	color:#F8CA00;
+}
+
+.item.mobile .item-header {
+
+	border-bottom:3px solid #F8CA00;
+}
+
+.item.mobile span a{
+	color:#F8CA00;
+}
+
+.item.js h1 a{
+	color:#8A9B0F;
+}
+
+.item.js .item-header {
+
+	border-bottom:3px solid #8A9B0F;
+}
+
+.item.js span a{
+	color:#8A9B0F;
+}
+
+.item.html h1 a{
+	color:#E97F02;
+}
+
+.item.html .item-header {
+
+	border-bottom:3px solid #E97F02;
+}
+
+.item.html span a{
+	color:#E97F02;
+}
+
+
+.item.design h1 a{
+	color:#A03C8D;
+}
+
+.item.design .item-header {
+
+	border-bottom:3px solid #A03C8D;
+}
+
+.item.design span a{
+	color:#A03C8D;
+
+
+
