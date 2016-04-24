@@ -26,6 +26,17 @@
 	color:#fff;
 }
 
+.nav-brand.black{
+	color:#3a3a3a;
+	color: #3a3a3a;
+	top: 1px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 8px;
+	right: -8px;
+}
+
 /* Para centralizer o titulo do nav superior */
 .nav-header{
 
@@ -42,11 +53,15 @@ a:hover{
 	font-size:24px;
 }
 
+/* Criar um glyphicon que seja um ponto */
+
 .glyphicon.glyphicon-dot:before {
-	    content: "\25cf";
-		    font-size: 1.5em;
-			}
-						
+	content: "\25cf";
+	font-size: 1.5em;
+}
+
+
+/* Classes para as cores personalizadas do site */
 
 .orange { 
 	color: #E97F02;
@@ -62,6 +77,11 @@ a:hover{
 
 .green{
 
-color:#8A9B0F;
+	color:#8A9B0F;
+
+}
+
+.icon-bar.black {
+	background-color:#000;
 
 }
