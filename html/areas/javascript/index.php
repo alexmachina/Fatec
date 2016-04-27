@@ -10,7 +10,7 @@
 
 				<div id="strip" class="hidden-xs col-sm-12 col-sm-offset-1 col-md-offset-0"></div>
 
-			<div id="circulo" class="col-sm-1 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
+			<div id="circulo" class="col-sm-1 col-lg-offset-8 col-md-offset-8 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
 
 		</section>
 

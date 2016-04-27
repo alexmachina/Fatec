@@ -189,6 +189,14 @@ body{
 
 }
 
+/*Adiciona um espacinho na faixa no tamanho md */
+@media (min-width : 992px) {
+
+	.faixa{
+		padding-right:10px;
+	}
+}
+
 .faixa{
 	height:80px;
 
