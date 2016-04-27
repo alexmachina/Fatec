@@ -50,7 +50,7 @@ body{
 
 /* Estilos gerais */
 .item-container{
-	min-height:200px;
+	min-height:255px;
 	background-color:white;
 	padding:0px;
 
@@ -202,6 +202,48 @@ body{
 
 }
 
+@media (max-width : 768px){
+	.articles-list.js .item.js .item-container{
+		min-height:initial;
+		height:106px;
+		overflow:hidden;
+	}
+
+	.articles-list.js .item-title{
+		padding:0;
+	}
+
+	.articles-list.js .item.js h2{
+		font-size:25px;
+	}
+
+	.articles-list.js .item.js .item-title{
+		max-height:initial;
+		min-height:initial;
+	}
+
+	.articles-list.js .post-arrow span{
+		font-size:50px;
+		top:27px;
+
+	}
+	.articles-list.js .post-arrow{
+		height:107px;
+		color: #319B0F;
+		padding-left:0;
+		
+	}
+
+	.articles-list.js .item{
+		margin-top:0;
+		padding-right:0;
+		padding-left:0;
+		border-bottom:2px solid green;
+		border-top:1px solid green;
+		
+	}
+}
+
 #row-faixa{
 	max-height:80px;
 	overflow:hidden;
@@ -209,9 +251,10 @@ body{
 
 .faixa.js {
 	background-color:#319B0F;
-	
+
 	border-bottom:1px solid rgb(243,243,243);
 }
+
 
 .faixa h1{
 	font-size: 42px;
