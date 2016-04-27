@@ -24,10 +24,19 @@ body{
 
 
 
+.row-nav-baixo{
+	margin-right:0;
+
+}
 .nav-baixo{
 	background-color:#fff;
 	color:#3a3a3a;
+	margin-right:0;
+	padding-right:0;
+	z-index:2;
 
+	margin-left:0;
+	min-width:100%;
 }
 
 .logo-nav-baixo{
@@ -161,6 +170,7 @@ body{
 
 #footer nav ul {
 	padding-top:35px;
+	padding-left:0;
 
 }
 
@@ -177,6 +187,51 @@ body{
 		text-align:center;
 	}
 
+}
+
+.faixa{
+	height:80px;
+
+}
+
+#row-faixa{
+	max-height:80px;
+	overflow:hidden;
+}
+
+.faixa.js {
+	background-color:#319B0F;
+	
+	border-bottom:1px solid rgb(243,243,243);
+}
+
+.faixa h1{
+	font-size: 42px;
+	font-weight: 900;
+	color:rgb(243,243,243); 
+
+}
+
+#circulo{
+	background-color:rgb(243,243,243);
+	width:50px;
+	height:50px;
+	margin-top:15px;
+	border-radius:50px;
+	padding-top:15px;
+	font-weight:bolder;
+}
+
+#strip{
+
+	transform: rotate(25deg);
+	width: 20px;
+	height: 102px;
+	background-color: rgb(243,243,243);
+	position: relative;
+	z-index: 1;
+	top: -11px;
+}
 }
 
 

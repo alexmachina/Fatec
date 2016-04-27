@@ -2,7 +2,7 @@
 <article class="container">
 	<div class="row">
 		<ul class="articles-list">
-			<li class="item mobile col-lg-3 col-md-4 col-sm-6">
+			<li class="item mobile col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">Mobile</a></h1>
@@ -18,7 +18,7 @@
 					</footer>
 				</div>
 			</li>
-		<li class="item js col-lg-3 col-md-4 col-sm-6">
+		<li class="item js col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">JavaScript</a></h1>
@@ -31,7 +31,7 @@
 					</footer>
 				</div>
 			</li>
-		<li class="item html col-lg-3 col-md-4 col-sm-6">
+		<li class="item html col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">HTML e CSS</a></h1>
@@ -44,7 +44,7 @@
 					</footer>
 				</div>
 			</li>
-		<li class="item design col-lg-3 col-md-4 col-sm-6">
+		<li class="item design col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">Design e UX</a></h1>
@@ -57,7 +57,7 @@
 					</footer>
 				</div>
 			</li>
-		<li class="item design col-lg-3 col-md-4 col-sm-6">
+		<li class="item design col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">Design e UX</a></h1>
@@ -70,7 +70,7 @@
 					</footer>
 				</div>
 			</li>
-		<li class="item js col-lg-3 col-md-4 col-sm-6">
+		<li class="item js col-lg-3 col-md-4 col-sm-6 col-xs-12">
 				<div class="item-container">
 					<header class="item-header">
 						<h1><a href="#">JavaScript</a></h1>
