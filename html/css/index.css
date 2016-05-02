@@ -7,7 +7,7 @@
 body{
 	background-color:#f3f3f3;
 	}
-
+d
 	li > a {
 		color:white;
 	}
@@ -182,7 +182,7 @@ body{
 	font-size:80px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 	#footer nav ul {
 		text-align:center;
 	}
@@ -231,7 +231,7 @@ body{
 		height:107px;
 		color: #319B0F;
 		padding-left:0;
-		
+
 	}
 
 	.articles-list.js .item{
@@ -240,7 +240,7 @@ body{
 		padding-left:0;
 		border-bottom:2px solid green;
 		border-top:1px solid green;
-		
+
 	}
 }
 
@@ -259,7 +259,7 @@ body{
 .faixa h1{
 	font-size: 42px;
 	font-weight: 900;
-	color:rgb(243,243,243); 
+	color:rgb(243,243,243);
 
 }
 
@@ -284,5 +284,3 @@ body{
 	top: -11px;
 }
 }
-
-

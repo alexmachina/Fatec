@@ -27,8 +27,8 @@
 					</header>
 
 					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">Android 6.1 - O que mudou? O que mudará?
-								E mais um titulo que é muito grande e ficará escondido
+						<h2><a href="#">ES6 - O que ha de novo? O guia definitivo
+
 							</a>
 						</h2>
 
