@@ -14,7 +14,7 @@
 
 				</div>
 				<div class="row">
-					<div class="author-post col-xs-8">
+					<div class="author-post col-xs-12">
 						<div class="thumb-post-container col-xs-12 ">
 							<img class="thumb" src="<?php echo $path; ?>/img/thumbs/alex.png"/>
 						</div>
@@ -25,7 +25,7 @@
 							</p>
 
 						</div>
-						<div id="circulo-post" class="col-xs-4 hidden-xs">
+						<div id="circulo-post" class="col-xs-4 col-xs-offset-1 col-sm-offset-0">
 						Js
 					</div>
 
