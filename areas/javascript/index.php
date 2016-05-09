@@ -13,8 +13,8 @@
 			<div id="circulo" class="col-sm-1 col-lg-offset-8 col-md-offset-8 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
 
 		</section>
-
 	</div>
+
 	<div class="separator"></div>
 	<div class="row">
 		<ul class="articles-list js">
@@ -22,12 +22,10 @@
 				<div class="item-container">
 					<header class="item-header hidden-xs">
 						<h1><a href="#">JavaScript</a></h1>
-
-
 					</header>
 
 					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">ES6 - O que ha de novo? O guia definitivo
+						<h2><a href="posts/post-1.php">ES6 - O que ha de novo? O guia definitivo
 
 							</a>
 						</h2>
@@ -144,7 +142,3 @@
 </article>
 
 <?php include '../../templates/footer.html'; ?>
-
-
-
-

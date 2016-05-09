@@ -10,7 +10,7 @@
 /* Estilo do nav superior */
 .navbar-nav{
 	background-color:#3a3a3a;
-	
+
 	color:#fff;
 }
 
@@ -63,8 +63,13 @@ a:hover{
 
 /* Classes para as cores personalizadas do site */
 
-.orange { 
+.orange {
 	color: #E97F02;
+}
+
+.orange.background{
+	background-color: #E97F02;
+
 }
 
 .yellow {

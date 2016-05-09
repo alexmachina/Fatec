@@ -14,7 +14,7 @@
 <div class="row">
 <article class="article-parceiros col-xs-12 col-md-6">
 <div class="col-xs-12 col-md-6">
-	<img src="../img/gnu.png" class="img img-responsive">
+	<img src="../img/comum/parceiros/gnu.png" class="img img-responsive">
 </div>
 
 <div class="col-xs-12 col-md-6 ">
@@ -31,7 +31,7 @@
 </article>
 <article class="article-parceiros col-xs-12 col-md-6">
 	<div class="col-xs-12 col-md-6">
-		<img src="../img/github.png" class="img img-responsive">
+		<img src="../img/comum/parceiros/github.png" class="img img-responsive">
 	</div>
 
 	<div class="col-xs-12 col-md-6 ">
@@ -50,7 +50,7 @@
 <div class="row">
 <article class="article-parceiros col-xs-12 col-md-6">
 	<div class="col-xs-12 col-md-6">
-		<img src="../img/w3c.png" class="img img-responsive">
+		<img src="../img/comum/parceiro/w3c.png" class="img img-responsive">
 	</div>
 
 	<div class="col-xs-12 col-md-6 ">
@@ -61,15 +61,12 @@
 			  Praesent luctus turpis eu ultrices ullamcorper. In hac habitasse platea dictumst. Nunc vulputate sodales eros et pulvinar.
 			  Proin in felis a justo placerat scelerisque.</p>
 	</div>
-
-
-
 </article>
 
 
 <article class="article-parceiros col-xs-12 col-md-6">
 	<div class="col-xs-12 col-md-6">
-		<img src="../img/linux.png" class="img img-responsive">
+		<img src="../img/comum/parceiros/linux.png" class="img img-responsive">
 	</div>
 
 	<div class="col-xs-12 col-md-6 ">
