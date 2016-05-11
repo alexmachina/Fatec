@@ -83,6 +83,17 @@ margin-top:15px;
 	margin-right: 3px;
 	font-size: 22px;
 }
+
+.js-article-1{
+	background-color:#fff;
+	height:500px;
+
+}
+
+.js-article-1-related{
+	height:500px;
+	background-color:#e1e4e3;
+}
 /* Estilo dos circulos das tags */
 .circulo-tag-2{
 	color:black;
