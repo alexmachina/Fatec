@@ -1,14 +1,9 @@
 <?php include '../../../templates/header.html'; ?>
 <article class="container">
-
-
 	<div class="row">
-
 		<div class="banner js col-xs-12">
-
 			<div class="banner-post js col-xs-12" >
 				<div class="row">
-
 
 					<div class="title-post js col-xs-12">
 						<h3>ES6 - O que há de novo? O guia definitivo</h3>
@@ -252,7 +247,7 @@ Novo
 					<div class="col-xs-12 related-ul">
 						<ul>
 							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
+								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
 							</li>
 							<li>
 								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
@@ -269,7 +264,6 @@ Novo
 							</li>
 						</ul>
 					</div>
-
 				</article>
 			</div>
 		</header>

@@ -1,17 +1,14 @@
 <?php include '../../../templates/header.html'; ?>
 <article class="container">
-
-
 	<div class="row">
 
 		<div class="banner js col-xs-12">
-
 			<div class="banner-post js col-xs-12" >
 				<div class="row">
 
 
 					<div class="title-post js col-xs-12">
-						<h3>ES6 - O que há de novo? O guia definitivo</h3>
+						<h3>React vs Ember vs Angular</h3>
 					</div>
 
 				</div>
@@ -57,6 +54,7 @@ Novo
 	<div class="col-xs-12 col-sm-8 js-article-1">
 		<div id="" class="col-xs-12 js-post-text-1">
 			<hr />
+			<h1>1. Ember consectetur elit</h1>
 
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -68,7 +66,7 @@ Novo
 			<div class="col-xs-12 text-center img-js-post">
 				<figure>
 
-					<img src="<?php echo $path; ?>/img/javascript/react.png" />
+					<img class="img img-responsive" src="<?php echo $path; ?>/img/javascript/emberjs.jpg" />
 					<figcaption>
 						Neque porro quisquam est qui dolorem ipsum quia dolor
 					</figcaption>
@@ -121,6 +119,18 @@ Novo
 
 			</p>
 		</div>
+		<div class="col-xs-12">
+			<h1>2. AngularJs conescutor</h1>
+		</div>
+		<div class="col-xs-12">
+			<figure>
+
+					<img class="img img-responsive" src="<?php echo $path; ?>/img/javascript/angularjs.png" />
+					<figcaption>
+						Neque porro quisquam est qui dolorem ipsum quia dolor
+					</figcaption>
+				</figure>
+		</div>
 		<div class="js code col-xs-12">
 			<p class="js code caption">
 				app/folder/todoList.js
@@ -136,7 +146,6 @@ Novo
 									{ item.text }
 									<span onClick={ _this.props.removeItem.bind(null, item['.key']) }
 									style={{ color: 'red', marginLeft: '10px', cursor: 'pointer' }}>
-									X
 								</span>
 							</li>
 							);
@@ -145,31 +154,7 @@ Novo
 					}
 				});
 
-				var TodoApp2 = React.createClass({
-					getInitialState: function() {
-						return {
-							items: [],
-							text: ''
-						};
-					},
-
-					componentWillMount: function() {
-						this.firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
-						this.firebaseRef.limitToLast(25).on('value', function(dataSnapshot) {
-							var items = [];
-							dataSnapshot.forEach(function(childSnapshot) {
-								var item = childSnapshot.val();
-								item['.key'] = childSnapshot.key();
-								items.push(item);
-							}.bind(this));
-
-							this.setState({
-								items: items
-							});
-						}.bind(this));
-					},
-
-					componentWillUnmount: function() {
+						componentWillUnmount: function() {
 						this.firebaseRef.off();
 					},
 
@@ -182,19 +167,7 @@ Novo
 						firebaseRef.child(key).remove();
 					},
 
-					handleSubmit: function(e) {
-						e.preventDefault();
-						if (this.state.text && this.state.text.trim().length !== 0) {
-							this.firebaseRef.push({
-								text: this.state.text
-							});
-							this.setState({
-								text: ''
-							});
-						}
-					},
-
-					render: function() {
+						render: function() {
 						return (
 
 						);
@@ -226,12 +199,7 @@ Novo
 		</p>
 	</div>
 	<div class="col-xs-12 text-center img-js-post">
-		<figure>
-			<img class="text-center img img-responsive" src="<?php echo $path; ?>/img/javascript/folders.png" />
-			<figcaption>
-				Neque porro quisquam est qui dolorem ipsum quia dolor
-			</figcaption>
-		</figure>
+
 	</div>
 </div>
 <aside class="col-xs-12 col-sm-4 js-article-1-related">
@@ -252,7 +220,7 @@ Novo
 					<div class="col-xs-12 related-ul">
 						<ul>
 							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
+								<a href="post-1.php"><span class="glyphicon glyphicon-minus"></span>ES6 O que há de novo? O guia definitivo</a>
 							</li>
 							<li>
 								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
@@ -269,7 +237,6 @@ Novo
 							</li>
 						</ul>
 					</div>
-
 				</article>
 			</div>
 		</header>

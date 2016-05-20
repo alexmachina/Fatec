@@ -86,14 +86,10 @@ margin-top:15px;
 
 .js-article-1{
 	background-color:#fff;
-	height:500px;
 
 }
 
-.js-article-1-related{
-	height:500px;
-	background-color:#e1e4e3;
-}
+
 /* Estilo dos circulos das tags */
 .circulo-tag-2{
 	color:black;
@@ -133,4 +129,115 @@ margin-top:15px;
 	padding-right:0;
 	font-weight:bolder;
 	margin-right:3px;
+}
+
+
+/* POST 1 */
+.js-post-text-1{
+	margin-top:10px;
+
+}
+
+.img-js-post{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.js.code{
+	margin-top:15px;
+
+}
+
+.js.code.caption{
+	text-decoration:underline;
+
+}
+
+/*Posts Relacionados*/
+.js-article-1-related{
+	padding-left:0px;
+	padding-right:0px;
+	background-color:#e1e4e3;
+}
+
+.related-container{
+	background-color:#fff;
+	padding:0;
+
+}
+
+.related-header{
+	margin-top:20px;
+
+}
+
+.related-title{
+	padding:0;
+
+}
+
+.related-title h3{
+margin-top:0;
+margin-bottom:0;
+text-align:center;
+}
+
+.related-dot-container{
+}
+
+.related-dot {
+	width:30px;
+	height:30px;
+	background-color:#319B0F;
+}
+
+.related-dot > span{
+font-size:29px;
+color:white;
+}
+
+
+.related-ul ul li{
+	text-decoration:none;
+	list-style:none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.related-ul{
+	padding-left:0;
+	padding-right:0;
+	margin-top:10px;
+	font-size:18px;
+}
+
+.related-ul ul{
+	padding-left:0;
+	margin-bottom:0;
+
+}
+
+.related-ul ul li:nth-child(odd){
+
+	background-color:#66C548;
+}
+.related-ul ul li:nth-child(odd) a{
+	color:white;
+}
+.related-ul ul li:nth-child(even) a{
+	color:black;
+}
+
+.related-ul ul li span{
+	display:block;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.img-post{
+	width:50%;
 }

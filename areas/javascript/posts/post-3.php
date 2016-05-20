@@ -1,17 +1,12 @@
 <?php include '../../../templates/header.html'; ?>
 <article class="container">
-
-
 	<div class="row">
-
 		<div class="banner js col-xs-12">
-
 			<div class="banner-post js col-xs-12" >
 				<div class="row">
 
-
 					<div class="title-post js col-xs-12">
-						<h3>ES6 - O que há de novo? O guia definitivo</h3>
+						<h3>O que o TypeScript tem a ver com o C#?</h3>
 					</div>
 
 				</div>
@@ -68,7 +63,7 @@ Novo
 			<div class="col-xs-12 text-center img-js-post">
 				<figure>
 
-					<img src="<?php echo $path; ?>/img/javascript/react.png" />
+					<img class="img-post" src="<?php echo $path; ?>/img/javascript/csharp.png" />
 					<figcaption>
 						Neque porro quisquam est qui dolorem ipsum quia dolor
 					</figcaption>
@@ -82,35 +77,9 @@ Novo
 				Aliquam scelerisque vel dui ac
 			</p>
 		</div>
-		<div class="js code col-xs-12">
-			<p class="js code caption">
-				app/folder/todoList.js
-			</p>
-			<pre class="line-numbers"><code class="language-javascript">
-				var personFactory = function(){
-					var misteriousPrivateAtb = "something";
-					//Execute misterious logic here.
-					function getBirthday(){
-						return "21/08";
+			<div id="" class="col-xs-12 js-post-text-1">
 
-					}
-					function Person(){
-						this.name = "foo";
-						this.age = "32";
-						this.birthday = getBirthday();
-					}
-
-					return new Person();
-				};
-
-				var person = personFactory();
-				console.log(person.birthday); //Result from misterious inacessible function!
-			</code></pre>
-		</div>
-		<div id="" class="col-xs-12 js-post-text-1">
-
-
-			<p>
+					<p>
 				Nam nibh ligula, accumsan in purus non, elementum elementum
 				leo. Ut pretium massa id sem volutpat venenatis. Aenean dignissim,
 				sem at imperdiet pulvinar, lacus nisl volutpat nisi, molestie
@@ -121,89 +90,16 @@ Novo
 
 			</p>
 		</div>
-		<div class="js code col-xs-12">
-			<p class="js code caption">
-				app/folder/todoList.js
-			</p>
-			<pre class="number-lines">
-				<code class="language-javascript">
-					var TodoList2 = React.createClass({
-						render: function() {
-							var _this = this;
-							var createItem = function(item, index) {
-								return (
-								<li key={ index }>
-									{ item.text }
-									<span onClick={ _this.props.removeItem.bind(null, item['.key']) }
-									style={{ color: 'red', marginLeft: '10px', cursor: 'pointer' }}>
-									X
-								</span>
-							</li>
-							);
-						};
-						return <ul>{ this.props.items.map(createItem) }</ul>;
-					}
-				});
+	<div id="" class="col-xs-12 text-center img-js-post">
 
-				var TodoApp2 = React.createClass({
-					getInitialState: function() {
-						return {
-							items: [],
-							text: ''
-						};
-					},
+<figure>
 
-					componentWillMount: function() {
-						this.firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
-						this.firebaseRef.limitToLast(25).on('value', function(dataSnapshot) {
-							var items = [];
-							dataSnapshot.forEach(function(childSnapshot) {
-								var item = childSnapshot.val();
-								item['.key'] = childSnapshot.key();
-								items.push(item);
-							}.bind(this));
+					<img class="img-post" src="<?php echo $path; ?>/img/javascript/anders.jpg" />
+					<figcaption>
+						Neque porro quisquam est qui dolorem ipsum quia dolor
+					</figcaption>
+				</figure>
 
-							this.setState({
-								items: items
-							});
-						}.bind(this));
-					},
-
-					componentWillUnmount: function() {
-						this.firebaseRef.off();
-					},
-
-					onChange: function(e) {
-						this.setState({text: e.target.value});
-					},
-
-					removeItem: function(key) {
-						var firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
-						firebaseRef.child(key).remove();
-					},
-
-					handleSubmit: function(e) {
-						e.preventDefault();
-						if (this.state.text && this.state.text.trim().length !== 0) {
-							this.firebaseRef.push({
-								text: this.state.text
-							});
-							this.setState({
-								text: ''
-							});
-						}
-					},
-
-					render: function() {
-						return (
-
-						);
-					}
-				});
-
-				ReactDOM.render(<TodoApp2 />, document.getElementById('todoApp2'));
-			</code>
-		</pre>
 	</div>
 	<div id="" class="col-xs-12 js-post-text-1">
 
@@ -225,14 +121,7 @@ Novo
 			placerat eget ante vel, pulvinar
 		</p>
 	</div>
-	<div class="col-xs-12 text-center img-js-post">
-		<figure>
-			<img class="text-center img img-responsive" src="<?php echo $path; ?>/img/javascript/folders.png" />
-			<figcaption>
-				Neque porro quisquam est qui dolorem ipsum quia dolor
-			</figcaption>
-		</figure>
-	</div>
+
 </div>
 <aside class="col-xs-12 col-sm-4 js-article-1-related">
 	<div class="col-xs-12 related-container">
@@ -252,11 +141,10 @@ Novo
 					<div class="col-xs-12 related-ul">
 						<ul>
 							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
+								<a href="post-1.php"><span class="glyphicon glyphicon-minus"></span>ES6 - O que há de novo? O Guia Definitivo</a>
 							</li>
 							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
-
+								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Ember vs Angular</a>
 							</li>
 							<li>
 								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>CRUD em Vanilla Js</a>
@@ -269,7 +157,6 @@ Novo
 							</li>
 						</ul>
 					</div>
-
 				</article>
 			</div>
 		</header>
