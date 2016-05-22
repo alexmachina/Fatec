@@ -9,7 +9,7 @@
 	<head>
 		<meta charset="UTF-8">
 
-		<title>Portal BCB</title>
+		<title>Nighttools</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,6 +22,8 @@
 
 		<!-- CSS Area Comum -->
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/comum/parceiros.css" media="all">
+		<link rel="stylesheet" href="/css/comum/quem-somos.css" media="all" />
+		<link rel="styesheet" href="/css/comum/normas.css" media="all" />
 
 		<!-- CSS Alex -->
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/areas/javascript/index.css" media="all">
@@ -29,6 +31,13 @@
 
 		<!-- CSS Index e Menu -->
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/index.css" media="all">
+
+		<!-- CSS Guilherme -->
+		<link rel="stylesheet" href="<?php echo $path; ?>/css/areas/html/index.css">
+		<link rel="stylesheet" href="<?php echo $path; ?>/css/areas/html/html-e-css.css">
+		<link rel="stylesheet" href="<?php echo $path; ?>/css/areas/html/estilo-posts.css">
+		<!-- CSS Amanda -->
+		<link rel="stylesheet" href="/css/areas/ux/estilopostdesing.css">
 	</head>
 
 	<body>
@@ -42,11 +51,11 @@
 							<a class="nav-brand" href="<?php echo $path; ?>/">
 								<img class="logo-comum" src="<?php echo $path; ?>/img/logo-night-tools-b.png"></a>
 						</div>
-						<div class="nav-comum col-lg-5 col-md-5 col-sm-7 col-xs-12">
+						<div class="nav-comum col-lg-5 col-md-6 col-sm-8 col-xs-12">
 							<ul class="nav navbar-nav">
-								<li><a href="#">Contato</a></li>
-								<li><a href="#">Quem Somos</a></li>
-								<li><a href="#">Anuncie</a></li>
+								<li class="hidden"><a href="#">Contato</a></li>
+								<li><a href="/comum/quem-somos.php">Quem Somos</a></li>
+								<li><a href="/comum/normas.php">Normas De Utilização</a></li>
 								<li><a href="<?php echo $path;?>/comum/parceiros.php">Parceiros</a></li>
 							</ul>
 						</div>
@@ -75,20 +84,20 @@
 						<li><a href="<?php echo $path; ?>/areas/javascript/index.php">
 							<span class="glyphicon glyphicon-dot green"></span>
 							JavaScript</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-dot purple"></span>
+							<li><a href="/areas/ux/homeux.php"><span class="glyphicon glyphicon-dot purple"></span>
 								Design e UX</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-dot orange"></span>
+								<li><a href="/areas/html/html-e-css.php"><span class="glyphicon glyphicon-dot orange"></span>
 									HTML e CSS</a></li>
-									<li><a href="#"><span class="glyphicon glyphicon-dot yellow"></span>
+									<li class="hidden"><a href="#"><span class="glyphicon glyphicon-dot yellow"></span>
 										Mobile</a></li>
 
 									</ul>
 									<hr>
 									<ul class="visible-xs nav navbar-nav nav-baixo">
-										<li><a href="#">Contato</a></li>
-										<li><a href="#">Quem Somos</a></li>
-										<li><a href="#">Anuncie</a></li>
-										<li><a href="<?php echo $path;?>/comum/parceiros.php">Parceiros</a></li>
+										<li class="hidden"><a href="#">Contato</a></li>
+										<li><a href="/comum/quem-somos.php">Quem Somos</a></li>
+										<li><a href="/comum/normas.php">Normas de Utilização</a></li>
+										<li><a href="/comum/parceiros.php">Parceiros</a></li>
 									</ul>
 								</nav>
 							</div>

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.faixa-post {
+    background-color: #E97F02;
+    height: 80%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+
+
+.glyphicon-calendar {
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+
+.nome-autor {
+    color: #fff;
+}
+.foto-autor {
+    border-radius: 50%;
+}
+
+.container-post{
+    height: 0%;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.img-post5 { width: 100%; }
+
+.data { font-family: Helvetica; }
+
+footer { clear: both; }
+
+
+
+.autor-header {
+    color: #3a3a3a;
+}
+
+.autor-bio { color: black; }
+
+@media (min-width: 1px) and (max-width: 1199px) {
+
+    .glyphicon-calendar {
+        margin-bottom: 3%;
+    }
+
+}

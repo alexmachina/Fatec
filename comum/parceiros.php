@@ -50,7 +50,7 @@
 <div class="row">
 <article class="article-parceiros col-xs-12 col-md-6">
 	<div class="col-xs-12 col-md-6">
-		<img src="../img/comum/parceiro/w3c.png" class="img img-responsive">
+		<img src="../img/comum/parceiros/w3c.png" class="img img-responsive">
 	</div>
 
 	<div class="col-xs-12 col-md-6 ">

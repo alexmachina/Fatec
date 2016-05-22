@@ -258,15 +258,8 @@ Novo
 								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
 
 							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>CRUD em Vanilla Js</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>ES2016 - O que esperar do novo Standard?</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>Design Patterns em JavaScript</a>
-							</li>
+
+							
 						</ul>
 					</div>
 

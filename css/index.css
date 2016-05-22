@@ -205,6 +205,9 @@ width:200px;
 	padding-bottom:10px;
 }
 
+#footer li a {
+	color:#fff;
+}
 #footer nav ul {
 	padding-top:35px;
 	padding-left:0;

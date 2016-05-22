@@ -35,7 +35,7 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/quem-somos/#eclair">Alex Alonso</a></span>
+						por: <span><a href="/comum/quem-somos">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
@@ -46,8 +46,7 @@
 					</header>
 
 					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">Android 6.1 - O que mudou? O que mudará?
-								E mais um titulo que é muito grande e ficará escondido
+						<h2><a href="posts/post-2.php">React vs Ember vs Angular
 							</a>
 						</h2>
 
@@ -56,21 +55,20 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/quem-somos/#eclair">Eclair Da Galera</a></span>
+						por: <span><a href="/comum/quem-somos/#eclair">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
 			<li class="item js col-lg-3 col-md-4 col-sm-6">
 				<div class="item-container">
 					<header class="item-header hidden-xs">
-						<h1><a href="#">JavaScript</a></h1>
+						<h1><a href="/areas/javascript/index.php">JavaScript</a></h1>
 
 
 					</header>
 
 					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">Android 6.1 - O que mudou? O que mudará?
-								E mais um titulo que é muito grande e ficará escondido
+						<h2><a href="/areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?
 							</a>
 						</h2>
 
@@ -79,55 +77,12 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/quem-somos/#eclair">Eclair Da Galera</a></span>
+						por: <span><a href="/comum/quem-somos.php">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
 
-<li class="item js col-lg-3 col-md-4 col-sm-6">
-				<div class="item-container">
-					<header class="item-header hidden-xs">
-						<h1><a href="#">JavaScript</a></h1>
-					</header>
 
-					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">Android 6.1 - O que mudou? O que mudará?
-								E mais um titulo que é muito grande e ficará escondido
-							</a>
-						</h2>
-
-					</article>
-					<div class="col-xs-2 col-sm-12 post-arrow visible-xs">
-						<span class="glyphicon glyphicon-chevron-right"></span>
-					</div>
-					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/quem-somos/#eclair">Eclair Da Galera</a></span>
-					</footer>
-				</div>
-			</li>
-			<li class="item js col-lg-3 col-md-4 col-sm-6">
-				<div class="item-container">
-					<header class="item-header hidden-xs">
-						<h1><a href="#">JavaScript</a></h1>
-
-
-					</header>
-
-					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="#">Android 6.1 - O que mudou? O que mudará?
-							E mais um titulo que é muito grande e ficará escondido
-						</a>
-					</h2>
-
-				</article>
-				<div class="col-xs-2 col-sm-12 post-arrow visible-xs">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</div>
-				<footer class="hidden-xs col-sm-12">
-					por: <span><a href="/quem-somos/#eclair">Eclair Da Galera</a></span>
-				</footer>
-			</div>
-		</li>
 	</ul>
 
 	<div class="col-lg-4 post">
