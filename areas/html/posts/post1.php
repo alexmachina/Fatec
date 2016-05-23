@@ -6,8 +6,8 @@
                 <h1 class="col xs-12">(Tutorial) Game em HTML5 utilizando Canvas</h1>
                 <hr>
                 <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
+                   <img src="<?php echo $path; ?>../../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                   <a href="../../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">  12/05/2016</span>
                    </div>
                </div>
@@ -43,4 +43,4 @@
                    </div>
                 </article>
             <hr>
-<?php include '../../templates/footer.html'; ?>
+<?php include '../../../templates/footer.html'; ?>

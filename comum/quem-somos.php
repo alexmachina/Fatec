@@ -66,19 +66,19 @@
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Quem sou Eu?</h2>
+                <h2 class="panel-title">Gerente de Projetos, Desenvolvedor</h2>
             </div>
             <!-- /Heading -->
 
             <!-- Body -->
             <div class="panel-body">
-                Minhas sessões
+                Minhas sessões: <a href="/areas/javascript/index.php">JavaScript</a>, <a href="/">Home </a> e Layout(Header e Footer), 
             </div>
             <!-- /Body -->
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="../homeux%20-%20C%C3%B3pia.html">Desing e UX</a>
+                 <a href="../homeux%20-%20C%C3%B3pia.html"></a>
             </div>
             <!-- /Body -->
 

@@ -6,12 +6,13 @@
                 <h1 class="col xs-12">Como usar o ARIA com o HTML5</h1>
                    <hr>
                 <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
+                   <img src="<?php echo $path; ?>../../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                   <a href="../../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                         <div class="glyphicon glyphicon-calendar"><span class="data">  20/05/2016</span>
                         </div>
             </div>
         </div>
+            </div>
         </section>
                <article class="container-post col-sm-3 col-xs-12 col-lg-offset-1">
                    <p>Proin tellus sapien, hendrerit ut dolor sed, efficitur vehicula felis. Etiam egestas urna lectus, in fringilla dui condimentum mollis. Etiam eleifend, neque posuere euismod luctus, velit turpis ultricies lacus, a dictum quam nunc ac elit. Vivamus varius blandit tellus, venenatis blandit magna maximus non. Donec quis scelerisque purus.</p>
@@ -57,4 +58,4 @@
                    </div>
                 </article>
             <hr>
-<?php include '../../templates/footer.html'; ?>
+<?php include '../../../templates/footer.html'; ?>
