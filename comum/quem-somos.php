@@ -1,4 +1,6 @@
-<?php include '../templates/header.html'; ?>
+<?php
+$path = "../";
+include '../templates/header.php'; ?>
 
     <div class="container">
     <!-- Page header -->
@@ -66,19 +68,19 @@
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Gerente de Projetos, Desenvolvedor</h2>
+                <h2 class="panel-title">Desenvolvedor e Gerente de Projetos</h2>
             </div>
             <!-- /Heading -->
 
             <!-- Body -->
             <div class="panel-body">
-                Minhas sessões: <a href="/areas/javascript/index.php">JavaScript</a>, <a href="/">Home </a> e Layout(Header e Footer), 
+                Minhas sessões
             </div>
             <!-- /Body -->
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="../homeux%20-%20C%C3%B3pia.html"></a>
+                 <a href="/areas/javascript/index.php">JavaScript</a>, <a href="/">Home</a> e Layout
             </div>
             <!-- /Body -->
 
@@ -151,7 +153,7 @@
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Quem sou Eu?</h2>
+                <h2 class="panel-title">Desenvolvedora e Designer de Layout</h2>
             </div>
             <!-- /Heading -->
 
@@ -163,7 +165,7 @@
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="../homeux%20-%20C%C3%B3pia.html">Desing e UX</a>
+                 <a href="/areas/ux/homeux.php">Design e UX</a>, Design do layout
             </div>
             <!-- /Body -->
 
@@ -236,7 +238,7 @@
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Quem sou Eu?</h2>
+                <h2 class="panel-title">Desenvolvedor e Criador do Logo</h2>
             </div>
             <!-- /Heading -->
 
@@ -248,7 +250,7 @@
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="../homeux%20-%20C%C3%B3pia.html">Desing e UX</a>
+				<a href="/areas/mobile/">Mobile</a>, Logo
             </div>
             <!-- /Body -->
 
@@ -321,7 +323,7 @@
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Quem sou Eu?</h2>
+                <h2 class="panel-title">Desenvolvedor e Tester</h2>
             </div>
             <!-- /Heading -->
 
@@ -333,7 +335,7 @@
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="../homeux%20-%20C%C3%B3pia.html">Desing e UX</a>
+				<a href="/areas/html/html-e-css.php">HTML e CSS</a>
             </div>
             <!-- /Body -->
 
@@ -356,4 +358,4 @@
 </div>
 </div>
 
- <?php include '../templates/footer.html'; ?>
+ <?php include '../templates/footer.php'; ?>

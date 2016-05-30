@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
@@ -6,7 +8,7 @@
                 <h1 class="col xs-12">Aprenda a usar a unidade rem no CSS</h1>
                    <hr>
                 <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>../../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
                    <a href="../../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                         <div class="glyphicon glyphicon-calendar"><span class="data">  22/05/2016</span>
                         </div>
@@ -44,11 +46,11 @@
                    <p>Nunc maximus leo ultrices laoreet mattis. In finibus quam sit amet tellus sagittis, sit amet ultrices diam porta. Sed ut libero laoreet, viverra nisl id, condimentum diam. Praesent imperdiet, turpis sed auctor facilisis, quam erat commodo est, et euismod ante eros mollis ipsum. Nulla porta blandit tristique. Etiam vel mattis erat. Proin quis lectus viverra, molestie est id, finibus augue. Mauris tempor lorem quis leo ornare, non dapibus justo consectetur. Quisque maximus sem vel efficitur pharetra. Duis eget quam elit.</p>
                    <hr>
                    <div class="autor-hr">
-                        <span>por: </span><a href="../../comum/quem-somos.php">Guilherme Felipe</a>
+                   <span>por: </span><a href="<?php echo $path; ?>comum/quem-somos.php">Guilherme Felipe</a>
                         <div class="autor-bio">
                             <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
                         </div>
                    </div>
                 </article>
             <hr>
-<?php include '../../../templates/footer.html'; ?>
+ <?php include '../../../templates/footer.php'; ?>

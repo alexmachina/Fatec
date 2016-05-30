@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
 <article class="container">
 	<div class="row">
 		<div class="banner js col-xs-12">
@@ -146,7 +148,7 @@ Novo
 							<li>
 								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Ember vs Angular</a>
 							</li>
-						
+
 						</ul>
 					</div>
 				</article>
@@ -156,4 +158,4 @@ Novo
 </aside>
 </div>
 </article>
-<?php include '../../../templates/footer.html'; ?>
+<?php include '../../../templates/footer.php'; ?>

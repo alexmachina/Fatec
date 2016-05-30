@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
 <article class="container">
 	<div class="row">
 		<div class="banner js col-xs-12">

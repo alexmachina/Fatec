@@ -1,4 +1,6 @@
-<?php include '../../templates/header.html'; ?>
+<?php
+$path = "../../";
+include '../../templates/header.php'; ?>
 <article class="container">
 	<div class="row"  id="row-faixa">
 		<section class="faixa js">
@@ -8,7 +10,7 @@
 
 			</div>
 
-				<div id="strip" class="hidden-xs col-sm-12 col-sm-offset-1 col-md-offset-0"></div>
+				<div id="strip" class="hidden col-sm-12 col-sm-offset-1 col-md-offset-0"></div>
 
 			<div id="circulo" class="col-sm-1 col-lg-offset-8 col-md-offset-8 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
 
@@ -35,7 +37,7 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/comum/quem-somos">Alex Alonso</a></span>
+						por: <span><a href="<?php echo $path; ?>comum/quem-somos.php">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
@@ -55,20 +57,20 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/comum/quem-somos/#eclair">Alex Alonso</a></span>
+						por: <span><a href="<?php echo $path; ?>comum/quem-somos.php">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
 			<li class="item js col-lg-3 col-md-4 col-sm-6">
 				<div class="item-container">
 					<header class="item-header hidden-xs">
-						<h1><a href="/areas/javascript/index.php">JavaScript</a></h1>
+						<h1><a href="<?php echo $path; ?>areas/javascript/index.php">JavaScript</a></h1>
 
 
 					</header>
 
 					<article class="item-title col-xs-10 col-sm-12">
-						<h2><a href="/areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?
+						<h2><a href="<?php echo $path; ?>areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?
 							</a>
 						</h2>
 
@@ -77,7 +79,7 @@
 						<span class="glyphicon glyphicon-chevron-right"></span>
 					</div>
 					<footer class="hidden-xs col-sm-12">
-						por: <span><a href="/comum/quem-somos.php">Alex Alonso</a></span>
+						por: <span><a href="<?php echo $path; ?>comum/quem-somos.php">Alex Alonso</a></span>
 					</footer>
 				</div>
 			</li>
@@ -93,4 +95,4 @@
 
 </article>
 
-<?php include '../../templates/footer.html'; ?>
+<?php include '../../templates/footer.php'; ?>

@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
 <article class="container">
 	<div class="row">
 
@@ -226,7 +228,7 @@ Novo
 								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
 
 							</li>
-						
+
 						</ul>
 					</div>
 				</article>
@@ -236,4 +238,4 @@ Novo
 </aside>
 </div>
 </article>
-<?php include '../../../templates/footer.html'; ?>
+<?php include '../../../templates/footer.php'; ?>

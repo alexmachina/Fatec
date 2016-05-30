@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.normas-h1 {
+    text-align: center;
+}
+
+.container-normas {
+    height: 0%;
+    
+    background-color: white;
+    margin: 1% 0% 0% 19%;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+p { margin-top: 4%; }
+
+footer { clear: both; }

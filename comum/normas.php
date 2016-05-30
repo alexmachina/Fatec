@@ -1,4 +1,8 @@
-<?php include '../templates/header.html'; ?>
+<?php
+$path = "../";
+include '../templates/header.php'; ?>
+
+
             <article class="container">
                 <h1 class="normas-h1">Normas de Utilização</h1>
                 <div class="container-normas col-xs-12">
@@ -35,4 +39,4 @@
                 </div>
             </article>
             <hr>
-<?php include '../templates/footer.html'; ?>
+<?php include '../templates/footer.php'; ?>

@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
@@ -6,7 +8,7 @@
                 <h1 class="col xs-12">Um modelo básico de HTML5 para qualquer projeto</h1>
                    <hr>
                 <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>../../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
                    <a href="../../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">  17/05/2016</span>
                    </div>
@@ -34,11 +36,11 @@
                    <p>Cras vel metus vel justo venenatis varius. Sed nec interdum lectus, eu tempus orci. Pellentesque ultricies nibh sem, quis vulputate augue rhoncus in. Donec ipsum elit, viverra ut velit id, tempus suscipit risus. Aliquam in nibh id sem malesuada ultricies ac ut mi. Phasellus sed suscipit lacus, eget tristique eros.</p>
                        <hr>
                        <div class="autor-hr">
-                        <span>por: </span><a href="../../comum/quem-somos.php">Guilherme Felipe</a>
+                      <span>por: </span><a href="<?php echo $path; ?>comum/quem-somos.php">Guilherme Felipe</a>
                         <div class="autor-bio">
                             <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
                         </div>
                        </div>
                 </article>
             <hr>
-<?php include '../../../templates/footer.html'; ?>
+ <?php include '../../../templates/footer.php'; ?>

@@ -1,4 +1,7 @@
-<?php include '../templates/header.html'; ?>
+<?php
+$path = "../";
+include '../templates/header.php'; ?>
+
 <div class="parceiros-article container">
 	<div class="row parceiros-title">
 		<div class="col-xs-12 text-center">
@@ -88,4 +91,4 @@
 
 
 
-<?php include '../templates/footer.html'; ?>
+<?php include '../templates/footer.php'; ?>

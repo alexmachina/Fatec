@@ -1,4 +1,6 @@
-<?php include '../../templates/header.html'; ?>
+<?php
+$path = "../../";
+include '../../templates/header.php'; ?>
 
     <div class="container">
     <br>
@@ -8,9 +10,9 @@
                 <article>
                     <h1>Desing e Layout</h1>
                     <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, uis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit ame et, bibendum atso blinded by desirres, or else he endures pains to avoid worse pains</p>
-                    <center><img src="/img/ux/ussers.jpg" class="imagem img img-responsive" alt="figura de unecessidades do celular"></center>
+                    <center><img src="<?php echo $path; ?>img/ux/ussers.jpg" class="imagem img img-responsive" alt="figura de unecessidades do celular"></center>
                     <p>Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. FusceAliquam vehicula mi at mauris.</p>
-                    <center><img  src="/img/ux/servicesdesing.png" class="imagem img img-responsive" alt="elementos de necssidade do usuário"></center>
+                    <center><img  src="<?php echo $path; ?>img/ux/servicesdesing.png" class="imagem img img-responsive" alt="elementos de necssidade do usuário"></center>
                     <p>Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. FusceAliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce</p>
                     <br>
                  <footer class="footerpostdotextoprincipal col-xs-12 col-sm-12 com-md-8">
@@ -21,7 +23,7 @@
                             <div class="row">
                             <div class="col-sm-3 col-md-3">
                                 <center>
-                                <img src="/img/ux/user_mobilephone.png" class="img-circle" alt="figura de homem com celular">
+                                <img src="<?php echo $path; ?>img/ux/user_mobilephone.png" class="img-circle" alt="figura de homem com celular">
                                 <br>
                                 <h4>Projeto</h4>
                                 <p>O que você precisa, na palma da sua mão.<br>
@@ -29,7 +31,7 @@
                             </div>
                             <div class="col-sm-3 col-md-3">
                                 <center>
-                                <img src="/img/ux/codigo.jpg" class="img-circle" alt="figura de chaves de codigo">
+                                <img src="<?php echo $path; ?>img/ux/codigo.jpg" class="img-circle" alt="figura de chaves de codigo">
                                 <br>
                                 <h4>Programador</h4>
                                 <p>Gestão, controle e autonomia dos seus projetos.<br>
@@ -37,7 +39,7 @@
                             </div>
                             <div class="col-sm-3 col-md-3">
                                 <center>
-                                <img src="/img/ux/caneta.jpg" class="img-circle" alt="desenho de caneta">
+                                <img src="<?php echo $path; ?>img/ux/caneta.jpg" class="img-circle" alt="desenho de caneta">
                                 <br>
                                 <h4>Arte</h4>
                                 <p>Porque a arte está nos olhos de quem usa.<br>
@@ -45,7 +47,7 @@
                             </div>
                             <div class="col-sm-3 col-md-3">
                                 <center>
-                                <img src="/img/ux/varinha.jpg" class="img-circle" alt="desenho de varinha">
+                                <img src="<?php echo $path; ?>img/ux/varinha.jpg" class="img-circle" alt="desenho de varinha">
                                 <br>
                                 <h4>Designer</h4>
                                 <p>A melhor visão para o seu desing.<br>
@@ -96,4 +98,4 @@
         </div>
 </div>
 
-<?php include '../../templates/footer.html'; ?>
+ <?php include '../../templates/footer.php'; ?>

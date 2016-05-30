@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
 <article class="container">
 
 
@@ -259,7 +261,7 @@ Novo
 
 							</li>
 
-							
+
 						</ul>
 					</div>
 
@@ -270,4 +272,4 @@ Novo
 </aside>
 </div>
 </article>
-<?php include '../../../templates/footer.html'; ?>
+<?php include '../../../templates/footer.php'; ?>

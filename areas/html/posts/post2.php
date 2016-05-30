@@ -1,4 +1,6 @@
-<?php include '../../../templates/header.html'; ?>
+<?php
+$path = "../../../";
+include '../../../templates/header.php'; ?>
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
@@ -6,8 +8,8 @@
                 <h1 class="col xs-12">Como criar um site estático com o Metalsmith</h1>
                    <hr>
                    <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>../../../img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="../../../comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+				   <a href="<?php echo $path?>comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">  14/05/2016</span>
                    </div>
                </div>
@@ -61,11 +63,11 @@ Donec ac tempor lacus. Sed a porta diam. Curabitur quis purus leo. Nullam vel ni
                     <p>Aenean dictum enim vel nisi finibus fermentum. Pellentesque luctus porttitor erat in pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut venenatis velit quis ligula mollis placerat. Duis eu efficitur ipsum. Integer commodo justo sit amet auctor finibus. Ut ac dictum diam. Mauris nec ligula nisl. Pellentesque rhoncus, justo ut luctus placerat, eros nibh maximus felis, at accumsan nunc velit non justo. Aenean lacinia massa a rhoncus volutpat.</p>
                        <hr>
                        <div class="autor-hr">
-                        <span>por: </span><a href="../../../comum/quem-somos.php">Guilherme Felipe</a>
+					   <span>por: </span><a href="<?php echo $path; ?>comum/quem-somos.php">Guilherme Felipe</a>
                         <div class="autor-bio">
                             <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
                         </div>
                        </div>
                 </article>
             <hr>
-<?php include '../../../templates/footer.html'; ?>
+ <?php include '../../../templates/footer.php'; ?>
