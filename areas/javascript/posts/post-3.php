@@ -125,37 +125,8 @@ Novo
 	</div>
 
 </div>
-<aside class="col-xs-12 col-sm-4 js-article-1-related">
-	<div class="col-xs-12 related-container">
-		<div class="row">
-			<header class="related-header col-xs-12">
-				<div class="related-title col-xs-10">
-					<h3>Mais do Autor</h3>
-				</div>
-				<div class="related-dot-container col-xs-1">
-					<div class="related-dot">
-						<span class="glyphicon glyphicon-list-alt"></span>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<article class="related-article col-xs-12">
-					<div class="col-xs-12 related-ul">
-						<ul>
-							<li>
-								<a href="post-1.php"><span class="glyphicon glyphicon-minus"></span>ES6 - O que há de novo? O Guia Definitivo</a>
-							</li>
-							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Ember vs Angular</a>
-							</li>
 
-						</ul>
-					</div>
-				</article>
-			</div>
-		</header>
-	</div>
-</aside>
+<?php include 'aside.php'; ?>
 </div>
 </article>
 <?php include '../../../templates/footer.php'; ?>

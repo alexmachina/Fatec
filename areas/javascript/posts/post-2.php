@@ -204,38 +204,8 @@ Novo
 
 	</div>
 </div>
-<aside class="col-xs-12 col-sm-4 js-article-1-related">
-	<div class="col-xs-12 related-container">
-		<div class="row">
-			<header class="related-header col-xs-12">
-				<div class="related-title col-xs-10">
-					<h3>Mais do Autor</h3>
-				</div>
-				<div class="related-dot-container col-xs-1">
-					<div class="related-dot">
-						<span class="glyphicon glyphicon-list-alt"></span>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<article class="related-article col-xs-12">
-					<div class="col-xs-12 related-ul">
-						<ul>
-							<li>
-								<a href="post-1.php"><span class="glyphicon glyphicon-minus"></span>ES6 O que há de novo? O guia definitivo</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
+<?php include 'aside.php'; ?>
 
-							</li>
-
-						</ul>
-					</div>
-				</article>
-			</div>
-		</header>
-	</div>
-</aside>
 </div>
 </article>
 <?php include '../../../templates/footer.php'; ?>

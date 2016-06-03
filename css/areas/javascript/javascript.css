@@ -153,6 +153,10 @@ margin-top:15px;
 
 }
 
+.related-article{
+	padding:0;
+}
+
 /*Posts Relacionados*/
 .js-article-1-related{
 	padding-left:0px;
@@ -275,6 +279,7 @@ a {
 
 .adv {
 	margin-top:5px;
+	margin-top:5px;
 	padding:0;
 }
 
@@ -285,8 +290,15 @@ a {
 
 .adv-inv {
 	background-color:grey;
+
 }
 
 .adv-art {
 	background-color:white;
+}
+
+#gitRepo { 
+	text-decoration:underline;
+	margin-top:10px;
+	display:block;
 }

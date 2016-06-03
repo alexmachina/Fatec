@@ -10,26 +10,29 @@
 						<span class="glyphicon glyphicon-list-alt"></span>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<article class="related-article col-xs-12">
-					<div class="col-xs-12 related-ul">
-						<ul>
-							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
+		</div>
+		<div class="row">
+			<article class="related-article col-xs-12">
+				<div class="col-xs-12 related-ul">
+					<ul>
+						<li>
+							<a href="post-1.php"><span class="glyphicon glyphicon-minus"></span>ES6 - O que há de novo? O guia definitivo</a>
+						</li>
+						<li>
+							<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
+						</li>
+						<li>
+							<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
 
-							</li>
+						</li>
 
 
-						</ul>
-					</div>
+					</ul>
+				</div>
 
-				</article>
-			</div>
-		</header>
+			</article>
+		</div>
+			</header>
 	</div>
 	<div class="col-xs-12">
 		<div class="row">
@@ -44,7 +47,7 @@
 								<span class="glyphicon glyphicon-dot orange"></span>
 
 								<a href="<?php echo $path; ?>areas/html/posts/post2.php">
-								Como criar um site estático com MetalSmith
+									Como criar um site estático com MetalSmith
 								</a>
 							</li>
 							<li>
@@ -72,44 +75,60 @@
 		<div class="row">
 			<header class="adv-hd col-xs-12">
 				<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
-<h3>Conheça o GNU/HURD</h3>
-	</a>
+					<h3>Conheça o GNU/HURD</h3>
+				</a>
 			</header>
 		</div>
+		<div class="row">
+			<article class="adv-art col-xs-12">
+				<div class="adv-article col-xs-12">
+
+					<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
+						<img src="<?php echo $path; ?>img/javascript/hurd.jpg">
+					</a>
+				</div>
+			</article>
+
+
+		</div>
+		<div class="col-xs-12 adv">
+			<div class="row">
+				<header class="adv-hd col-xs-12 text-center">
+					<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
+						<h3><b>GitHub</b>, para <b>GRANDES</b> idéias</h3>
+					</a>
+				</header>
+			</div>
 			<div class="row">
 				<article class="adv-art col-xs-12">
 					<div class="adv-article col-xs-12">
 
 						<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
-							<img src="<?php echo $path; ?>img/javascript/hurd.jpg">
+							<img src="<?php echo $path; ?>img/javascript/github.png">
 						</a>
 					</div>
 				</article>
-
-
 			</div>
+
+
+			<div class="col-xs-12 adv-inv">
+				<h3><b>O maior repositório Open Source do mundo</b></h3>
+			</div>
+
 			<div class="col-xs-12 adv">
-				<div class="row">
-					<header class="adv-hd col-xs-12 text-center">
-						<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
-							<h3><b>GitHub</b>, para <b>GRANDES</b> idéias</h3>
+				<header class="col-xs-12 adv-hd">
+					<h3>Novidades no Docker 3.0</h3>
+				</header>
+				<article class="adv-art col-xs-12">
+					<div class="adv-article col-xs-12">
+						<a href="" target="blank">
+							<img src="<?php echo $path; ?>img/javascript/docker.png">
 						</a>
-					</header>
-				</div>
-				<div class="row">
-					<article class="adv-art col-xs-12">
-						<div class="adv-article col-xs-12">
-
-							<a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">
-								<img src="<?php echo $path; ?>img/javascript/github.png">
-							</a>
-						</div>
-					</article>
-				</div>
+						<a id="gitRepo" href="https://github.com/docker/docker" target="_blank">Repositório do GitHub</a>
+					</div>
+				</article>
+			</div>
 
 
-				<div class="col-xs-12 adv-inv">
-					<h3><b>O maior repositório Open Source do mundo</b></h3>
-				</div>
 
 </aside>
