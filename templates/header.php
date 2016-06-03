@@ -18,7 +18,7 @@
 		<!-- CSS Area Comum -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/comum/parceiros.css" media="all">
 		<link rel="stylesheet" href="<?php echo $path; ?>css/comum/quem-somos.css" media="all" />
-		<link rel="styesheet" href="<?php echo $path; ?>css/comum/normas.css" media="all" />
+		<link rel="stylesheet" href="<?php echo $path; ?>css/comum/normas.css" media="all" />
 
 		<!-- CSS Alex -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/javascript/index.css" media="all">

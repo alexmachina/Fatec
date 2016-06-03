@@ -155,59 +155,12 @@ Novo
 						};
 					},
 
-					componentWillMount: function() {
-						this.firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
-						this.firebaseRef.limitToLast(25).on('value', function(dataSnapshot) {
-							var items = [];
-							dataSnapshot.forEach(function(childSnapshot) {
-								var item = childSnapshot.val();
-								item['.key'] = childSnapshot.key();
-								items.push(item);
-							}.bind(this));
-
-							this.setState({
-								items: items
-							});
-						}.bind(this));
-					},
-
-					componentWillUnmount: function() {
-						this.firebaseRef.off();
-					},
-
-					onChange: function(e) {
-						this.setState({text: e.target.value});
-					},
-
-					removeItem: function(key) {
-						var firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
-						firebaseRef.child(key).remove();
-					},
-
-					handleSubmit: function(e) {
-						e.preventDefault();
-						if (this.state.text && this.state.text.trim().length !== 0) {
-							this.firebaseRef.push({
-								text: this.state.text
-							});
-							this.setState({
-								text: ''
-							});
-						}
-					},
-
-					render: function() {
-						return (
-
-						);
-					}
-				});
 
 				ReactDOM.render(<TodoApp2 />, document.getElementById('todoApp2'));
 			</code>
 		</pre>
 	</div>
-	<div id="" class="col-xs-12 js-post-text-1">
+	<div class="col-xs-12 js-post-text-1">
 
 
 		<p>
@@ -228,48 +181,10 @@ Novo
 		</p>
 	</div>
 	<div class="col-xs-12 text-center img-js-post">
-		<figure>
-			<img class="text-center img img-responsive" src="<?php echo $path; ?>/img/javascript/folders.png" />
-			<figcaption>
-				Neque porro quisquam est qui dolorem ipsum quia dolor
-			</figcaption>
-		</figure>
 	</div>
 </div>
-<aside class="col-xs-12 col-sm-4 js-article-1-related">
-	<div class="col-xs-12 related-container">
-		<div class="row">
-			<header class="related-header col-xs-12">
-				<div class="related-title col-xs-10">
-					<h3>Mais do Autor</h3>
-				</div>
-				<div class="related-dot-container col-xs-1">
-					<div class="related-dot">
-						<span class="glyphicon glyphicon-list-alt"></span>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<article class="related-article col-xs-12">
-					<div class="col-xs-12 related-ul">
-						<ul>
-							<li>
-								<a href="post-2.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
+<?php include 'aside.php'; ?>
 
-							</li>
-
-
-						</ul>
-					</div>
-
-				</article>
-			</div>
-		</header>
-	</div>
-</aside>
 </div>
 </article>
 <?php include '../../../templates/footer.php'; ?>

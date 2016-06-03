@@ -241,3 +241,52 @@ color:white;
 .img-post{
 	width:50%;
 }
+
+.check-article {
+	padding-bottom:20px;
+}
+.check-article ul li {
+	margin-bottom:10px;
+
+
+}
+
+.check-article ul li a {
+	color:black;
+	text-decoration:underline;
+}
+
+.adv-article img {
+	width:100%;
+}
+
+.adv-article header  h3 a {
+	color:black;
+}
+
+a {
+	color:black;
+}
+.adv-article {
+	padding-bottom:30px;
+	background-color:white;
+
+}
+
+.adv {
+	margin-top:5px;
+	padding:0;
+}
+
+.adv-hd {
+	background-color:white;
+		padding-left:25px;
+}
+
+.adv-inv {
+	background-color:grey;
+}
+
+.adv-art {
+	background-color:white;
+}
