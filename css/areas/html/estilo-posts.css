@@ -6,9 +6,8 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
+    margin-top: 1%;
 }
-
-
 
 .glyphicon-calendar {
     padding-left: 5%;
@@ -25,21 +24,45 @@
 
 .container-post{
     height: 0%;
-    width: 80%;
+    width: 50%;
     background-color: white;
-    margin-left: 10%;
+    margin: 1% 0% 0% 12.5%;
     padding-left: 25px;
     border-radius: 10px;
     margin-bottom: 2%;
 }
 
-.img-post5 { width: 100%; }
+.p-html { margin: 10px 0px 15px 0px; }
+
+.img-post5 { 
+    width: 60%;
+    float: right;
+}
+
+.cont-aside-html {
+    background-color: white;
+    border-radius: 10px;
+    width: 22%;
+    margin: 1% 0% 0% 2.8%;
+}
+
+.more-this, .more-this-js, .more-this-mobile, .more-this-design { 
+    font-size: 1.3em;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    margin: 0% -5.7% 0% -5.5%;
+}
+
+.more-this { background-color: #E97F02; }
+.more-this-js { background-color: #8A9B0F; }
+.more-this-mobile { background-color: #F8CA00; }
+.more-this-design { background-color: #A03C8D; }
+
+.links-aside { margin: 10% 0% 10% 0%; }
 
 .data { font-family: Helvetica; }
 
 footer { clear: both; }
-
-
 
 .autor-header {
     color: #3a3a3a;
@@ -53,4 +76,27 @@ footer { clear: both; }
         margin-bottom: 3%;
     }
 
+}
+
+@media (min-width: 1px) and (max-width: 992px) {
+    
+    .cont-aside-html {
+        width: 72%;
+        margin: auto auto 2% 14%;
+    }
+    
+    .container-post {
+        height: 0%;
+        width: 72%;
+        background-color: white;
+        padding-left: 25px;
+        margin: 1% 0% 0% 13.8%;
+        border-radius: 10px;
+        margin-bottom: 2%;
+}
+    .more-this, .more-this-js, .more-this-mobile, .more-this-design {
+        font-size: 150%;
+        margin: auto -2.3% auto -2.2%;
+    }
+    
 }

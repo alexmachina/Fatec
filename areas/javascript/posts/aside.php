@@ -25,6 +25,10 @@
 							<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
 
 						</li>
+<li>
+							<a href="post-4.php"><span class="glyphicon glyphicon-minus"></span>ElectronJs: A forma mais criativa para aplicações desktop</a>
+
+						</li>
 
 
 					</ul>
@@ -62,6 +66,14 @@
 									O que o TypeScript tem a ver com o C#?
 								</a>
 							</li>
+<li>
+
+								<span class="glyphicon glyphicon-dot green"></span>
+								<a href="<?php echo $path; ?>areas/javascript/posts/post-4.php">
+									ElectronJs: A forma mais criativa para aplicações desktop
+								</a>
+							</li>
+
 						</ul>
 					</div>
 				</article>

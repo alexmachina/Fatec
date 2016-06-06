@@ -18,10 +18,21 @@
 
 #conteudo .thumbnail{
     margin-right: 1.5em;
-    box-shadow: 0 0 .1em rgba(180, 160, 15, 0.5);
+    box-shadow:0 1px 3px rgba(0,0,0,.12);
     border-radius: 1px;
-   background-color: #f8f8ff;
+    background-color: #f8f8ff; 
+    height: 25em;
+}
+
+#conteudo .thumbnail h3{
+    font-size: 1.2em;
+    font-weight: 200;
+}
     
+
+#conteudo h2{
+    text-transform: capitalize;
+    letter-spacing: .1em;
 }
 
 #conteudo .caption h2{
@@ -43,9 +54,15 @@
         
 }
 
-.postGeral{
-    padding: 3em;
+#conteudo a{
+    color: #101010;
 }
+
+#conteudo a:hover{
+    color: #e0e033;
+}
+
+
 
 .postGeral h1{
     font-weight: 200;
@@ -56,27 +73,60 @@
     border-bottom-color: #62544f;
     border-bottom-style: solid;
     border-bottom-width: .1em;
+    font-size: 3em;
+    
 }
+
+.postGeral h3{
+    color: rgba(224, 224, 51, 0.81);
+    text-transform: uppercase;
+   
+}
+    
 
 .postGeral p{
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+.post1 #conteudo{
+  /*  box-shadow:0 1px 3px rgba(0,0,0,.12);
+    border-radius: 1px;
+    background-color: #fff; */
+}
+
+.post2 #conteudo{
+ /*   box-shadow:0 1px 3px rgba(0,0,0,.12);
+    border-radius: 1px;
+    background-color: #fff; */
+}
+
+.post3 #conteudo{
+ /*   box-shadow:0 1px 3px rgba(0,0,0,.12);
+    border-radius: 1px;
+    background-color: #fff; */
+}
+
+.post4 .sobre{
+    background: url(../../../img/mobile/parallaxMobile.jpg) no-repeat fixed;
+   /* opacity: 0.8;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+    padding-bottom: 4em;
+    background-color: #046380;
+    box-shadow:0 1px 3px rgba(0,0,0,.12);
+    height: auto;
+    
+}
+
+.post4 .sobre p{
+    color: #fff;
     letter-spacing: .1em;
-    line-height: 1.4em;         
-}
-
-post1{
-    
-}
-
-post2{
-    
-}
-
-post3{
-    
-}
-
-post4{
-    
+    font-weight: 300;
+    text-align: center;
 }
 
 post5{

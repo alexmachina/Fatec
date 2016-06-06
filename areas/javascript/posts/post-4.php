@@ -24,7 +24,7 @@ include '../../../templates/header.php'; ?>
 							</p>
 
 						</div>
-						<div id="circulo-post" class="col-xs-4 col-xs-offset-1 col-sm-offset-0">
+						<div id="circulo-post" class="hidden-xs col-xs-4 col-xs-offset-1 col-sm-offset-0">
 							Js
 						</div>
 
@@ -62,15 +62,6 @@ Novo
 				dui finibus aliquam.
 
 			</p>
-			<div class="col-xs-12 text-center img-js-post">
-				<figure>
-
-					<img src="<?php echo $path; ?>/img/javascript/react.png" />
-					<figcaption>
-						Neque porro quisquam est qui dolorem ipsum quia dolor
-					</figcaption>
-				</figure>
-			</div>
 			<p>
 
 				Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
@@ -231,46 +222,8 @@ Novo
 		</figure>
 	</div>
 </div>
-<aside class="col-xs-12 col-sm-4 js-article-1-related">
-	<div class="col-xs-12 related-container">
-		<div class="row">
-			<header class="related-header col-xs-12">
-				<div class="related-title col-xs-10">
-					<h3>Mais do Autor</h3>
-				</div>
-				<div class="related-dot-container col-xs-1">
-					<div class="related-dot">
-						<span class="glyphicon glyphicon-list-alt"></span>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<article class="related-article col-xs-12">
-					<div class="col-xs-12 related-ul">
-						<ul>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>React vs Angular vs Ember</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>O que o TypeScript tem a ver com o C#?</a>
 
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>CRUD em Vanilla Js</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>ES2016 - O que esperar do novo Standard?</a>
-							</li>
-							<li>
-								<a href="post-3.php"><span class="glyphicon glyphicon-minus"></span>Design Patterns em JavaScript</a>
-							</li>
-						</ul>
-					</div>
-				</article>
-			</div>
-		</header>
-	</div>
-</aside>
-</div>
+<?php include 'aside.php'; ?>
+			
 </article>
 <?php include '../../../templates/footer.html'; ?>

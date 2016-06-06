@@ -2,18 +2,15 @@
 $path = "../../../";
 include '../../../templates/header.php'; ?>
 <article class="container">
-
-
 	<div class="row">
 
 		<div class="banner js col-xs-12">
-
 			<div class="banner-post js col-xs-12" >
 				<div class="row">
 
 
 					<div class="title-post js col-xs-12">
-						<h3>ES6 - O que há de novo? O guia definitivo</h3>
+						<h3>VueJs Primeiros Passos</h3>
 					</div>
 
 				</div>
@@ -59,31 +56,83 @@ Novo
 	<div class="col-xs-12 col-sm-8 js-article-1">
 		<div id="" class="col-xs-12 js-post-text-1">
 			<hr />
+			<h1>1. Electron  consectetur elit</h1>
 
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
 				Nullam sodales, purus in rutrum porta, mauris velit fringilla
 				dolor, in sagittis odio libero a mi. Morbi sed orci eget
 				dui finibus aliquam.
-
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
 			</p>
-			<div class="col-xs-12 col-sm-3 text-center img-js-post">
+			<div class="col-xs-12 col-sm-4 text-center img-js-post">
 
-			<img class="post-image" src="<?php echo $path; ?>/img/javascript/react.png" />
+					<img class="post-image" src="<?php echo $path; ?>/img/javascript/electron-logo.png" />
 			</div>
 			<p>
 
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+				Lorem ipsum dolor sit amet, consectetur adipia fascing elit.
+				Nullam sodales, purus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
+ururus in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.us in rutrum porta, mauris velit fringilla
+				dolor, in sagittis odio libero a mi. Morbi sed orci eget
+				dui finibus aliquam.
 				Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
 				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
 				Curabitur tincidunt porttitor purus in ullamcorper.
 				Aliquam scelerisque vel dui ac
-ullamcorper dignissim. Nunc tristique mattis accumsan.
-				Curabitur tincidunt porttitor purus in ullamcorper.
-				Aliquam scelerisque vel dui ac
-ullamcorper dignissim. Nunc tristique mattis accumsan.
-				Curabitur tincidunt porttitor purus in ullamcorper.
-				Aliquam scelerisque vel dui ac
-
 			</p>
 		</div>
 		<div class="js code col-xs-12">
@@ -125,6 +174,18 @@ ullamcorper dignissim. Nunc tristique mattis accumsan.
 
 			</p>
 		</div>
+		<div class="col-xs-12">
+			<h1>2. AngularJs conescutor</h1>
+		</div>
+		<div class="col-xs-12">
+			<figure>
+
+					<img class="img img-responsive" src="<?php echo $path; ?>/img/javascript/angularjs.png" />
+					<figcaption>
+						Neque porro quisquam est qui dolorem ipsum quia dolor
+					</figcaption>
+				</figure>
+		</div>
 		<div class="js code col-xs-12">
 			<p class="js code caption">
 				app/folder/todoList.js
@@ -140,7 +201,6 @@ ullamcorper dignissim. Nunc tristique mattis accumsan.
 									{ item.text }
 									<span onClick={ _this.props.removeItem.bind(null, item['.key']) }
 									style={{ color: 'red', marginLeft: '10px', cursor: 'pointer' }}>
-									X
 								</span>
 							</li>
 							);
@@ -149,20 +209,31 @@ ullamcorper dignissim. Nunc tristique mattis accumsan.
 					}
 				});
 
-				var TodoApp2 = React.createClass({
-					getInitialState: function() {
-						return {
-							items: [],
-							text: ''
-						};
+						componentWillUnmount: function() {
+						this.firebaseRef.off();
 					},
 
+					onChange: function(e) {
+						this.setState({text: e.target.value});
+					},
+
+					removeItem: function(key) {
+						var firebaseRef = new Firebase('https://ReactFireTodoApp.firebaseio.com/items/');
+						firebaseRef.child(key).remove();
+					},
+
+						render: function() {
+						return (
+
+						);
+					}
+				});
 
 				ReactDOM.render(<TodoApp2 />, document.getElementById('todoApp2'));
 			</code>
 		</pre>
 	</div>
-	<div class="col-xs-12 js-post-text-1">
+	<div id="" class="col-xs-12 js-post-text-1">
 
 
 		<p>
@@ -183,6 +254,7 @@ ullamcorper dignissim. Nunc tristique mattis accumsan.
 		</p>
 	</div>
 	<div class="col-xs-12 text-center img-js-post">
+
 	</div>
 </div>
 <?php include 'aside.php'; ?>

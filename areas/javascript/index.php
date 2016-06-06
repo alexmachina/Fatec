@@ -12,7 +12,7 @@ include '../../templates/header.php'; ?>
 
 		<div id="strip" class="hidden col-sm-12 col-sm-offset-1 col-md-offset-0"></div>
 
-		<div id="circulo" class="col-sm-1 col-lg-offset-8 col-md-offset-8 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
+		<div id="circulo" class="hidden-xs col-sm-1 col-lg-offset-8 col-md-offset-8 col-xs-1 col-sm-offset-6 col-xs-offset-4">JS</div>
 
 	</section>
 
@@ -108,13 +108,18 @@ include '../../templates/header.php'; ?>
 						<li class="js-list-item col-sm-6 col-lg-3 col-md-4">
 							<div class="js-list-container col-xs-12">
 								<header class="header">
+<a href="posts/post-5.php">
 									
 									<img class="js-list-img" alt="electron logo"
 								  src="<?php echo $path; ?>img/javascript/vuejs-logo.jpg">
+</a>
 								</header>
 
 								<article class="js-list-title">
+
+<a href="posts/post-5.php">
 									<h3>vuejs - primeiros passos</h3>
+</a>
 								</article>
 							</div>
 						</li>

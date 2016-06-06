@@ -24,7 +24,7 @@ include '../../../templates/header.php'; ?>
 							</p>
 
 						</div>
-						<div id="circulo-post" class="col-xs-4 col-xs-offset-1 col-sm-offset-0">
+						<div id="circulo-post" class="hidden-xs col-xs-4 col-xs-offset-1 col-sm-offset-0">
 							Js
 						</div>
 
@@ -62,10 +62,11 @@ Novo
 				dui finibus aliquam.
 
 			</p>
-			<div class="col-xs-12 text-center img-js-post">
+			<div class="col-xs-4 text-center img-js-post">
 				<figure>
 
-					<img class="img-post" src="<?php echo $path; ?>/img/javascript/csharp.png" />
+					<img class="post-image" src="<?php echo $path; ?>/img/javascript/csharp.png" />
+
 					<figcaption>
 						Neque porro quisquam est qui dolorem ipsum quia dolor
 					</figcaption>
@@ -77,6 +78,19 @@ Novo
 				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
 				Curabitur tincidunt porttitor purus in ullamcorper.
 				Aliquam scelerisque vel dui ac
+		Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
+				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
+				Curabitur tincidunt porttitor purus in ullamcorper.
+				Aliquam scelerisque vel dui ac
+Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
+				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
+				Curabitur tincidunt porttitor purus in ullamcorper.
+			Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
+				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
+				Curabitur tincidunt porttitor purus in ullamcorper.
+				Aliquam scelerisque vel dui ac
+		Aliquam scelerisque vel dui ac
+
 			</p>
 		</div>
 			<div id="" class="col-xs-12 js-post-text-1">
