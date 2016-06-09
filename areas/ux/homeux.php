@@ -2,11 +2,9 @@
 $path = "../../";
 include '../../templates/header.php'; ?>
 
-<div id="parallaxBar" data-speed="6" data-type="background">
-    <div clas1s="barrahome col-xs-12 col-sm-12 col-md-12"></div>
-            <div class="row">
-                <ul>
-                <br>
+<div id="parallaxBar" class="" data-speed="6" data-type="background">
+            <div class="row ">
+                <ul class="abaixa">
 
     <li class="col-xs-12 col-sm-3 col-md-3">
         <div class="itemhome">
@@ -91,7 +89,7 @@ include '../../templates/header.php'; ?>
 		      <h1><a href="../../areas/ux/postuxh.php">UX</a></h1>
 		  </header>
             <article class="hometitulo">
-			<h2><a href="../../areas/ux/postuxh.php"s>Conheça o projeto UXnoBrasil.org</a></h2>
+			<h2><a href="../../areas/ux/postuxh.php">Conheça o projeto UXnoBrasil.org</a></h2>
 			</article>
 		</div>
     </li>

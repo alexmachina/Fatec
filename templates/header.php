@@ -48,7 +48,7 @@
 							<div class="nav-title col-lg-3 col-lg-offset-4
 							col-sm-4">
 							<a class="nav-brand" href="<?php echo $path; ?>">
-								<img class="logo-comum" src="<?php echo $path; ?>img/logo-night-tools-b.png"></a>
+								<img alt="Logo do site nighttools com a palavra nighttools escrita" class="logo-comum" src="<?php echo $path; ?>img/logo-night-tools-b.png"></a>
 						</div>
 						<div class="nav-comum col-lg-5 col-md-6 col-sm-8 col-xs-12">
 							<ul class="nav navbar-nav">
@@ -68,7 +68,7 @@
 					<div class="navbar-header visible-xs">
 						<div class="navbar-brand brand-baixo">
 							<a class="nav-brand black" href="<?php echo $path; ?>index.php">
-								<img class="logo-comum-baixo" src="<?php echo $path; ?>img/logo-night-tools.png">
+								<img alt="O logo do site Nighttools com a palavra nighttools escrita" class="logo-comum-baixo" src="<?php echo $path; ?>img/logo-night-tools.png">
 							</a>
 						</div>
 
@@ -90,7 +90,7 @@
 									HTML e CSS</a></li>
 									<li><a href="<?php echo $path; ?>areas/mobile/index.php"><span class="glyphicon glyphicon-dot yellow"></span>
 										Mobile</a></li>
-							
+
 
 									</ul>
 									<hr>
@@ -100,7 +100,10 @@
 										<li><a href="<?php echo $path; ?>comum/normas.php">Normas de Utilização</a></li>
 										<li><a href="<?php echo $path; ?>comum/parceiros.php">Parceiros</a></li>
 									</ul>
-								</nav>
 							</div>
+
+								</nav>
+			</div>
 						</header>
+
 					</div>
