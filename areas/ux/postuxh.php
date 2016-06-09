@@ -13,7 +13,6 @@ include '../../templates/header.php'; ?>
                     <img src="<?php echo $path; ?>img/ux/uxbrasil.png" class="imagem img img-responsive" alt="imagem da logo UX brasil">
                     <p>consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non.</p>
                     <p>imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit ame et, bibendum atso blinded by desirres, or else he endures pains to avoid worse pains</p>
-                     <img src="<?php echo $path; ?>img/ux/paintcity.jpg" class="imagem img img-responsive" alt=" logo de uma lata de tinta">
                     <br>
                     <footer class="footerpostdotextoprincipal col-xs-12 col-sm-12 com-md-8">
                         <div class="row">

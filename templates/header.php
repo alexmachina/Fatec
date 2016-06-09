@@ -78,7 +78,7 @@
 							<span class="icon-bar black"></span>
 						</button>
 					</div>
-					<div class="col-sm-8  col-xs-12 col-md-offset-2 col-lg-offset-3 col-sm-offset-2 collapse navbar-collapse" id="nav-baixo">
+					<div class="col-sm-8  col-xs-12 col-md-offset-3 col-lg-offset-3 col-sm-offset-3 collapse navbar-collapse" id="nav-baixo">
 						<ul class="nav navbar-nav nav-baixo"
 						>
 						<li><a href="<?php echo $path; ?>areas/javascript/index.php">
@@ -90,11 +90,12 @@
 									HTML e CSS</a></li>
 									<li><a href="<?php echo $path; ?>areas/mobile/index.php"><span class="glyphicon glyphicon-dot yellow"></span>
 										Mobile</a></li>
+							
 
 									</ul>
 									<hr>
 									<ul class="visible-xs nav navbar-nav nav-baixo">
-										<li class="hidden"><a href="#">Contato</a></li>
+									<li><a href="<?php echo $path; ?>comum/contato.php">Contato</a></li>
 										<li><a href="<?php echo $path; ?>comum/quem-somos.php">Quem Somos</a></li>
 										<li><a href="<?php echo $path; ?>comum/normas.php">Normas de Utilização</a></li>
 										<li><a href="<?php echo $path; ?>comum/parceiros.php">Parceiros</a></li>

@@ -5,7 +5,6 @@
 			<nav class="navbar nav">
 				<ul>
 					<li class="footer-title">Sobre</li>
-					<li class="hidden"><a href="">Contato</a></li>
 					<li><a href="<?php echo $path; ?>comum/quem-somos.php">Quem Somos</a></li>
 					<li><a href="<?php echo $path; ?>comum/parceiros.php">Parceiros</a></li>
 
@@ -30,11 +29,13 @@
 		<div class="col-sm-3 col-xs-12">
 			<nav class="navbar nav text-center">
 				<ul>
-					<img src="<?php echo $path; ?>img/logo-night-tools-b.png" />
+					<li>
+						<img alt="Logo do site NightTools" src="<?php echo $path; ?>img/logo-night-tools-b.png" />
+					</li>
 				</ul>
-		</div>
 			</nav>
 
+		</div>
 	</div>
 
 </footer>

@@ -16,7 +16,7 @@ include '../../templates/header.php'; ?>
 
 	</section>
 
-	<article class="js-list">
+	<div class="js-list">
 		<div class="row">
 			<div class="col-xs-12">
 				<ul class="js-list-ul">
@@ -129,5 +129,7 @@ include '../../templates/header.php'; ?>
 				</ul>
 			</div>
 		</div>
-	</article>
+	</div>
 </div>
+
+<?php include '../../templates/footer.php'; ?>

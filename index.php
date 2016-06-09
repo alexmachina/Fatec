@@ -91,8 +91,6 @@ include 'templates/header.php'; ?>
 							</header>
 							<article class="item-title">
 								<h2><a href="<?php echo $path; ?>areas/mobile/posts/post-1.php">CRIANDO UMA APLICAÇÃO MOBILE COM REAPP</a></h2>
-		</a>
-		</h2>
 							</article>
 							<footer>
 							 por:  <span><a href="<?php echo $path; ?>comum/quem-somos.php">Eclair</a></span>

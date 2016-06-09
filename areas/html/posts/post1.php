@@ -8,8 +8,8 @@ include '../../../templates/header.php'; ?>
                 <h1 class="col xs-12">(Tutorial) Game em HTML5 utilizando Canvas</h1>
                 <hr>
                 <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?> img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="<?php echo $path; ?> comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                   <a href="<?php echo $path; ?>comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">12/05/2016</span>
                    </div>
                </div>
@@ -220,9 +220,9 @@ main();
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
                 <h1 class="more-this-js">MAIS SOBRE JAVASCRIPT:</h1>
                 <ul>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/js/posts/post-1.php">ES6 - O que há de novo? O guia definitivo</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/js/posts/post-2.php">React vs Ember vs Angular</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/js/posts/post-3.php">O que o TypeScript tem a ver com o C#?</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-1.php">ES6 - O que há de novo? O guia definitivo</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-2.php">React vs Ember vs Angular</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -237,14 +237,14 @@ main();
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
                 <h1 class="more-this-design">MAIS SOBRE DESIGN & UX:</h1>
                 <ul>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxa.php">Mobile em um novo olhar sobre o desing</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxb.php">Desing e Layout</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxc.php">Flat X Realismo</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxd.php">Dominando Patterns SVG</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxe.php">Olhar simples</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxf.php">Os logos de 2016</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxg.php">Por que UX desing está relacionado mais com negócios do que com Desing?</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/posts/postuxh.php">Conheça o projeto UXnoBrasil.org</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxa.php">Mobile em um novo olhar sobre o desing</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxb.php">Desing e Layout</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxc.php">Flat X Realismo</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxd.php">Dominando Patterns SVG</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxe.php">Olhar simples</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxf.php">Os logos de 2016</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxg.php">Por que UX desing está relacionado mais com negócios do que com Desing?</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">Conheça o projeto UXnoBrasil.org</a></li>
                 </ul>
             </aside>
  <?php include '../../../templates/footer.php'; ?>

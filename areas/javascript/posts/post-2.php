@@ -17,7 +17,7 @@ include '../../../templates/header.php'; ?>
 				<div class="row">
 					<div class="author-post col-xs-12">
 						<div class="thumb-post-container col-xs-12 ">
-							<img class="thumb" src="<?php echo $path; ?>/img/thumbs/alex.png"/>
+							<img class="thumb" alt="Imagem do rosto do autor do post" src="<?php echo $path; ?>/img/thumbs/alex.png"/>
 						</div>
 						<div class="author-post-name-container col-xs-6">
 							<p class="author-name"><a href="/comum/quem-somos.php"> Alex Alonso</a></p>
@@ -67,7 +67,7 @@ Novo
 			</p>
 			<div class="col-xs-12 col-sm-4 text-center img-js-post">
 
-					<img class="post-image" src="<?php echo $path; ?>/img/javascript/emberjs.jpg" />
+					<img class="post-image" alt="Logo do ReactJs" src="<?php echo $path; ?>/img/javascript/emberjs.jpg" />
 			</div>
 			<p>
 

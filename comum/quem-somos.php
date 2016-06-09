@@ -33,7 +33,7 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                <strong>R.A</strong> 26.50.83.15.23.025.
+                <strong>R.A</strong> 26.50.83.14.13.002.
             </div>
             <!-- /Body -->
 
@@ -80,14 +80,14 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="/areas/javascript/index.php">JavaScript</a>, <a href="/">Home</a> e Layout
+			<a href="<?php echo $path; ?>areas/javascript/index.php">JavaScript</a>, <a href="<?php echo $path; ?>">Home</a> e Layout
             </div>
             <!-- /Body -->
 
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small>Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus.</small>
+                <small>Desenvolvedor JavaScript, amante de software livre e tecnologias Open Source, e roteirista de cinema nas horas vagas.</small>
             </div>
             <!-- /Footer -->
 
@@ -165,14 +165,16 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                 <a href="/areas/ux/homeux.php">Design e UX</a>, Design do layout
+			<a href="<?php echo $path; ?>areas/ux/homeux.php">Design e UX</a>, Design do layout,
+                <a href="<?php echo $path; ?>comum/quem-somos.php">Quem somos,</a>
+                <a href="<?php echo $path; ?>comum/contato.php">e Contato.</a>
             </div>
             <!-- /Body -->
 
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small>Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus.</small>
+                <small>Compradora por ofício, pedagoga por formação e estudante de T.I. por curiosidade. Tem 27 anos e busca um sentido na vida.</small>
             </div>
             <!-- /Footer -->
 
@@ -203,7 +205,7 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                <strong>R.A</strong> 26.50.83.15.23.025.
+                <strong>R.A</strong> 26.50.83.15.23.028
             </div>
             <!-- /Body -->
 
@@ -250,14 +252,14 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-				<a href="/areas/mobile/">Mobile</a>, Logo
+			<a href="<?php echo $path; ?>areas/mobile/">Mobile</a>, Logo
             </div>
             <!-- /Body -->
 
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small>Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus.</small>
+                <small>Estudante e exímio cabelereiro.</small>
             </div>
             <!-- /Footer -->
 
@@ -288,7 +290,7 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                <strong>R.A</strong> 26.50.83.15.23.025.
+                <strong>R.A</strong> 26.50.83.15.23.024.
             </div>
             <!-- /Body -->
 
@@ -335,14 +337,15 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-				<a href="/areas/html/html-e-css.php">HTML e CSS</a>
+			<a href="<?php echo $path; ?>areas/html/html-e-css.php">HTML e CSS</a>
+			<a href="<?php echo $path; ?>comum/normas.php">e Normas de utilização</a>
             </div>
             <!-- /Body -->
 
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small>Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus.</small>
+                <small> Desenvolvedor iniciante, estudante, palmeirense e tem 18 anos. Futuro Bill Gates.</small>
             </div>
             <!-- /Footer -->
 
