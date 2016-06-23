@@ -31,9 +31,12 @@
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/html/index.css">
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/html/html-e-css.css">
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/html/estilo-posts.css">
+        
 		<!-- CSS Amanda -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/ux/estilopostdesing.css">
-
+        
+     
+        
 		<!-- CSS Eclair -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/mobile/index.css" media="all">
 

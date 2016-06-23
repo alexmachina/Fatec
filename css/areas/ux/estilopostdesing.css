@@ -38,7 +38,7 @@ body {
 
 .textopostdesingcoluna2 {
 	background-image: linear-gradient(to bottom, #FFFFFF, #FFF6FC 290%);
-	padding: 30px;
+	padding: 35px;
     border-radius: 05px;
     box-shadow: 03px 01px 5px #999;
 }
@@ -49,10 +49,6 @@ body {
     border-radius: 05px;
     box-shadow: 03px 01px 5px #999;
     font-size: 12px;
-}
-
-.copyright {
-	position: center;
 }
 
 .menulateralpostux {
@@ -75,15 +71,6 @@ body {
     margin: 20px;
 }
 
-#parallaxBar {
-    height:750px;
-    background-color:#004c82;
-    background-attachment: fixed;
-    background: url(../../../img/sketch.png) 50% 0 fixed;
-    position: relative;
-    background-size: cover 800%;
-}
-
 .row {
     margin: 0;
 }
@@ -94,9 +81,10 @@ body {
     list-style: none;
     border-radius: 05px;
     box-shadow: 03px 01px 5px #999;
-    background-color: #FFFFFF;
-    opacity:.8;
-
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    margin: 10px;
+    
+    
 }
 
 li {
@@ -215,4 +203,31 @@ input/*[type=submit]*/ {
 
 .abaixa{
 margin-top:40px;
+}
+
+.autor {
+	display: inline-block;
+    background-image: linear-gradient(45deg, #ffffff 0%,#f8f1f0 92%,#ededed 97%,#ffffff 100%);
+    padding: 30px 30px;
+    font-size:10px;
+    text-align:right;
+	height: 5px;
+    margin-top: -20px;
+	margin-bottom: 30px;
+    border-radius: 3px 20px 20px 3px;
+    box-shadow: 03px 03px 5px #999;
+    text-shadow: 0.3px 0.3px 2099;
+}
+
+.faceautor {
+    margin-top: -20px;
+    height: 45px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.imghome {
+    height: 50px;
+    float: right;
+    border-radius: 50%;
 }

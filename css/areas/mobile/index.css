@@ -22,6 +22,7 @@
     border-radius: 1px;
     background-color: #f8f8ff; 
     height: 25em;
+    width: auto;
 }
 
 #conteudo .thumbnail h3{
@@ -88,6 +89,15 @@
     letter-spacing: 0.1em;
     line-height: 1.4em;
     font-size: 1.2em;
+}
+.postGeral #botao{
+   float: right;
+    margin: 1.2em;
+}
+.postGeral #minhafoto{
+    margin: 1.5em;
+    margin-left: 2em;
+    width: 13em;
 }
 
 .post1 #conteudo{

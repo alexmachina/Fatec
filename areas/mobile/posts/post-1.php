@@ -9,11 +9,11 @@ include '../../../templates/header.php'; ?>
          <div class="container">
          <div class="row">
 
-             <h1 class="text-center">Criando uma aplicação Mobile com Reapp</h1>
+             <h1 class="text-center" id="topo">Criando uma aplicação Mobile com Reapp</h1>
              <div class="thumbnail container">
              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-             <img class="img-circle center-block img-responsive" src="../../../img/mobile/IMG-20160118-WA0005.jpg" alt="...">
+             <img class="img-circle center-block img-responsive" src="../../../img/mobile/IMG-20160118-WA0005.jpg" alt="..." id="minhafoto" class="img-responsive">
 
              </div>
 
@@ -78,7 +78,7 @@ include '../../../templates/header.php'; ?>
 
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-              <a href="<?php echo $path; ?>/areas/mobile/index.php" class="btn btn-warning">Voltar</a>
+              <a href="#topo" class="btn btn-warning" id="botao">Voltar ao topo</a>
             </div>    
         </div>
     </div>

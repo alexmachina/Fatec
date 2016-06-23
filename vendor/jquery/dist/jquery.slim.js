@@ -11,6 +11,23 @@
  *
  * Date: 2016-01-14T23:07Z
  */
+(function(  adjustWindow () {
+    ...
+}
+  
+function  initAdjustWindow () {
+    return  {
+        jogo: function () {
+            adjustWindow ();
+        },
+        unmatch: function () {
+            adjustWindow ();
+        }
+    };
+}
+ 
+enquire.register ( "tela e (min-width: 768px)" , initAdjustWindow (), false );
+
 
 (function( global, factory ) {
 

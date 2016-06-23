@@ -10,11 +10,11 @@ include '../../../templates/header.php'; ?>
          <div class="container">
          <div class="row">
 
-             <h1 class="text-center">Gerenciamento de dependência com o Gerenciador de Pacotes Swift</h1>
+             <h1 class="text-center" id="topo">Gerenciamento de dependência com o Gerenciador de Pacotes Swift</h1>
              <div class="thumbnail container">
              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
-             <img class="img-circle center-block img-responsive" src="../../../img/mobile/IMG-20160118-WA0005.jpg" alt="...">
+             <img class="img-circle center-block img-responsive" src="../../../img/mobile/IMG-20160118-WA0005.jpg" alt="..." id="minhafoto" class="img-responsive">
 
              </div>
 
@@ -98,7 +98,7 @@ To add an existing package as a dependency to a project, create a file named Pac
               </article>
         
         
-        <a href="<?php echo $path; ?>/areas/mobile/index.php" class="btn btn-warning">voltar</a>
+         <a href="#topo" class="btn btn-warning" id="botao">Voltar ao topo</a>
             </div>
     </div>
 

@@ -1,20 +1,28 @@
 <?php
 $path = "../../../";
 include '../../../templates/header.php'; ?>
+       
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
 	           <div class="titulo-container col-xs-12">
-                <h1 class="col xs-12">(Tutorial) Game em HTML5 utilizando Canvas</h1>
+                <h1 class="col-xs-12">(Tutorial) Game em HTML5 utilizando Canvas</h1>
                 <hr>
-                <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="<?php echo $path; ?>comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">12/05/2016</span>
                    </div>
                </div>
             </div>
         </div>
+        </section>
+        <section>
+            <div class="div-bio-autorh">
+                <div class="autorpost">
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                </div>
+                <div class="bio-autorh">
+                    <p><b>Guilherme Felipe</b>, o responsável pela área de HTML e CSS do NightTools, cursa o 2º semestre de Sistemas para Internet na FATEC de São Roque, é desenvolvedor iniciante, palmeirense e tem 18 anos. Gosta de praticar esportes, sair com os amigos e jogar videogame nas horas vagas.  Futuro Bill Gates.</p>
+                </div>
+            </div>
         </section>
                <article class="container-post col-md-12 col-lg-9">
                    <p class="p-html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id mauris ut diam facilisis efficitur ac nec urna. <a href="#">Phasellus nisl mi</a>, efficitur vel ex suscipit, imperdiet varius tortor. Proin vehicula mattis neque vel pharetra. Suspendisse urna turpis, mollis in ultricies blandit, aliquet quis ligula. Ut aliquam ornare lacus, et porttitor libero.</p>
@@ -197,13 +205,6 @@ main();
                         </pre>
                     </div>
                    <p class="p-html">Integer at libero sed mauris interdum ornare eu in lectus. Nunc tortor felis, cursus quis accumsan eget, molestie sed odio. Aliquam malesuada iaculis risus eget tincidunt. Mauris et elit ut tortor iaculis fringilla at eu libero. Integer vulputate bibendum turpis in <a href="#">ullamcorper</a>.</p>
-                   <hr>
-                   <div class="autor-hr">
-                     <span>por: </span><a href="<?php echo $path; ?> comum/quem-somos.php">Guilherme Felipe</a>
-                        <div class="autor-bio">
-                            <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
-                        </div>
-                   </div>
                 </article>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
                 <h1 class="more-this">MAIS SOBRE HTML & CSS:</h1>
@@ -223,6 +224,7 @@ main();
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-1.php">ES6 - O que há de novo? O guia definitivo</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-2.php">React vs Ember vs Angular</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-5.php">VueJs Primeiros Passos</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -232,6 +234,8 @@ main();
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-2.php">O que os desenvolvedores podem esperar em Android N?</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-3.php">Gerenciamento de dependência com o Gerenciador de Pacotes Swift</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-4.php">Retrofit, um cliente HTTP simples para Android e Java</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-5.php">Um passeio com Android Auto</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-6.php">Explorando Os Elementos UI Do Ubuntu Phone</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -244,7 +248,7 @@ main();
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxe.php">Olhar simples</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxf.php">Os logos de 2016</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxg.php">Por que UX desing está relacionado mais com negócios do que com Desing?</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">Conheça o projeto UXnoBrasil.org</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">O projeto UX no Brasil.org</a></li>
                 </ul>
             </aside>
  <?php include '../../../templates/footer.php'; ?>

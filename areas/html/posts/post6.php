@@ -1,32 +1,37 @@
 <?php
 $path = "../../../";
 include '../../../templates/header.php'; ?>
+       
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
 	           <div class="titulo-container col-xs-12">
                 <h1 class="col xs-12">Limpando um código de base do CSS</h1>
                    <hr>
-                <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="<?php echo $path; ?>comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                         <div class="glyphicon glyphicon-calendar"><span class="data">19/05/2016</span>
                         </div>
                </div>
             </div>
         </div>
         </section>
+        <section>
+            <div class="div-bio-autorh">
+                <div class="autorpost">
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                </div>
+                <div class="bio-autorh">
+                    <p><b>Guilherme Felipe</b>, o responsável pela área de HTML e CSS do NightTools, cursa o 2º semestre de Sistemas para Internet na FATEC de São Roque, é desenvolvedor iniciante, palmeirense e tem 18 anos. Gosta de praticar esportes, sair com os amigos e jogar videogame nas horas vagas.  Futuro Bill Gates.</p>
+                </div>
+            </div>
+        </section>
                <article class="container-post col-sm-3 col-xs-12 col-lg-offset-1">
-                   <p class="p-html">Praesent ac consequat ipsum. Duis porttitor dui nunc, vitae facilisis ex cursus ut. Ut facilisis dui augue, sed efficitur libero scelerisque eget. Nullam scelerisque tortor vel interdum iaculis. Phasellus pretium aliquam mauris non tempus. Praesent tincidunt lacus leo, in pharetra diam pharetra eget. Nulla non est justo. Nulla consequat nisl ac ante pellentesque iaculis. Aliquam fringilla porttitor pharetra. Donec id erat in tortor feugiat hendrerit quis sed libero. Morbi augue felis, commodo a ornare sit amet, euismod nec dolor.</p>
+                   <p class="p-html">Praesent ac consequat ipsum. Duis porttitor dui nunc, vitae facilisis ex cursus ut. Ut facilisis dui augue, sed efficitur libero scelerisque eget. Nullam scelerisque tortor vel interdum iaculis. Phasellus pretium aliquam mauris non tempus.</p>
                    <h2>A dificuldade do Lint</h2>
-                   <p class="p-html">Vestibulum lacinia a nisl in ultrices. Maecenas quis vulputate odio. <a href="#">Quisque</a> at erat eu erat lacinia suscipit. Aliquam venenatis dignissim enim sit amet consectetur. Donec nec elementum odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat malesuada dolor at eleifend. Proin eleifend nec risus id <a href="#">tincidunt</a>. Etiam blandit justo nec lacus tempus pulvinar. Cras rutrum magna tellus, non mollis lorem posuere sed. Nulla facilisi. Etiam rhoncus erat metus, at elementum mi malesuada non.</p>
-                   <p class="p-html">Vestibulum sed maximus risus. Curabitur pulvinar nulla <a href="#">sit amet</a> aliquam euismod. Integer rutrum ante id ante laoreet vehicula. Maecenas eget magna id nulla varius ultrices. Duis neque ante, imperdiet eu pretium quis, facilisis ut est. Donec nibh felis, posuere et gravida non, semper sit amet enim. Cras sit amet tellus lectus. Nunc viverra libero ut bibendum aliquet. Integer aliquet justo sit amet auctor ultricies.</p>
+                   <p class="p-html">Vestibulum lacinia a nisl in ultrices. Maecenas quis vulputate odio. <a href="#">Quisque</a> at erat eu erat lacinia suscipit. Aliquam venenatis dignissim enim sit amet consectetur. Nam placerat malesuada dolor at eleifend. Proin eleifend nec risus id <a href="#">tincidunt</a>. Etiam blandit justo nec lacus tempus pulvinar.</p>
                    <h2>Fixando erros encontrados no Lint</h2>
-                   <p class="p-html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor lobortis turpis non sollicitudin. Nunc euismod orci ut fermentum faucibus. Proin a consectetur ligula, a malesuada augue. Aenean pharetra accumsan nisi non tempor. Quisque <a href="#">pretium diam urna</a>, ac tristique ligula consectetur sed. Curabitur aliquet sapien sit amet est pharetra dapibus. Integer et diam enim. Suspendisse potenti. Maecenas ut nunc eget turpis ornare aliquam. Praesent nec tincidunt ante.</p>
-                   <p class="p-html">Curabitur hendrerit purus nec tortor facilisis vestibulum. Nulla non pulvinar magna. Mauris quis fringilla urna. Curabitur venenatis tempor nisl, eget faucibus turpis posuere nec. Nam tincidunt lectus ac sapien iaculis mollis. Duis nec massa nec risus <a href="#">scelerisque</a> mollis a in quam. Mauris sollicitudin lectus eu aliquam porttitor. Etiam posuere, leo fermentum scelerisque accumsan, ex turpis porttitor velit, quis consequat felis diam aliquam mi. Nullam eu sem justo. Donec ornare tortor congue est maximus, id finibus magna volutpat. Suspendisse tincidunt lacus diam, ut blandit purus posuere volutpat.</p>
+                   <p class="p-html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor lobortis turpis non sollicitudin. Aenean pharetra accumsan nisi non tempor. Quisque <a href="#">pretium diam urna</a>, ac tristique ligula consectetur sed.</p>
                    <h2>Reveja a estrutura</h2>
-                   <p class="p-html">Vivamus consectetur, ex vel tristique sodales, <a href="#">velit felis</a> elementum dolor, vitae consequat lorem nulla in urna. Ut aliquet, orci at volutpat congue, mauris nisi pharetra ipsum, nec <a href="#">bibendum</a> tortor orci quis neque. Integer euismod sapien ut quam tempus, eget facilisis est euismod.</p>
-                   <p class="p-html">Pellentesque habitant morbi tristique senectus et netus et malesuada <a href="#">fames ac turpis</a> egestas. Mauris sodales erat nec libero imperdiet, maximus feugiat urna aliquam. Proin ullamcorper aliquet metus, et mollis urna sagittis sed. <a href="#">Quisque</a> sollicitudin tincidunt augue, sed tempus leo ullamcorper in. Morbi vel ullamcorper est, at <a href="#">finibus nisl</a>. Ut ac blandit orci, in iaculis nibh. Donec id dapibus quam. Nullam iaculis iaculis odio et placerat. Quisque ullamcorper vehicula porta.</p>
+                   <p class="p-html">Pellentesque habitant morbi tristique senectus et netus et malesuada <a href="#">fames ac turpis</a> egestas. Mauris sodales erat nec libero imperdiet, maximus feugiat urna aliquam. Proin ullamcorper aliquet metus, et mollis urna sagittis sed. <a href="#">Quisque</a> sollicitudin tincidunt augue, sed tempus leo ullamcorper in. Morbi vel ullamcorper est, at <a href="#">finibus nisl</a>. Ut ac blandit orci, in iaculis nibh. Donec id dapibus quam.</p>
                    <pre>
                         <code class='language-css'>
 .quote {
@@ -47,7 +52,6 @@ include '../../../templates/header.php'; ?>
       
                         </code>
                     </pre>
-                   <p class="p-html">Duis suscipit consectetur velit non tempor. Sed vulputate a nibh sed eleifend. Duis posuere ante ullamcorper nisl imperdiet tempor. Nulla facilisi.</p>
                    <h2>Remova o excesso</h2>
                    <p class="p-html">Suspendisse id eleifend est. Maecenas nec ex ac sapien cursus consectetur eget iaculis lacus. Etiam scelerisque, purus eu rutrum lobortis, orci leo egestas nisl, ut tristique arcu velit non lorem. Sed commodo augue eu sodales suscipit. Morbi in nisl est. Curabitur consectetur mi sed aliquam malesuada. Sed sit amet iaculis arcu. Ut sed venenatis urna, ac venenatis neque. In pulvinar luctus risus in tempor. Sed fringilla varius dui, sed rhoncus leo condimentum nec.</p>
                    <pre>
@@ -66,7 +70,6 @@ include '../../../templates/header.php'; ?>
       
                         </code>
                     </pre>
-                   <p class="p-html">Fusce eget ultrices tortor. Quisque maximus ultricies quam. Mauris sem risus, facilisis quis pulvinar sed, luctus ut massa.</p>
                    <h2>O CSS é esperto, você tem que ser mais ainda</h2>
                    <p class="p-html">Proin luctus lobortis nibh vitae varius. In vitae vestibulum nisi. Suspendisse feugiat fringilla vulputate. Pellentesque suscipit dignissim ex, at laoreet leo mollis id.</p>
                    <pre>
@@ -87,19 +90,9 @@ a {
                         </code>
                     </pre>
                    <h2>Consiga seu melhor Git</h2>
-                   <p class="p-html">Mauris fringilla sollicitudin malesuada. Proin in vulputate orci. Ut <a href="#">Git</a> dui sit amet eros malesuada semper. Cras eleifend at nisi ac eleifend. Phasellus nec metus elit. Donec rutrum, lectus ut lacinia dictum, massa urna lobortis justo, in facilisis massa augue non enim. In hac habitasse platea dictumst. Mauris placerat magna ac elit fringilla imperdiet. Nam nisi neque, luctus nec dui at, lobortis dapibus magna.</p>
-                   <p class="p-html">Nam lobortis mi vestibulum faucibus eleifend. Aliquam porttitor rhoncus magna non scelerisque. Nullam imperdiet nisi ut nibh condimentum, ut scelerisque dui laoreet. Donec et posuere ex. Aenean luctus augue non laoreet commodo. Mauris accumsan tellus eget odio interdum, vel pulvinar metus scelerisque.</p>
+                   <p class="p-html">Mauris fringilla sollicitudin malesuada. Proin in vulputate orci. Ut <a href="#">Git</a> dui sit amet eros malesuada semper. Cras eleifend at nisi ac eleifend. Phasellus nec metus elit. Donec rutrum, lectus ut lacinia dictum, massa urna lobortis justo, in facilisis massa augue non enim. In hac habitasse platea dictumst.</p>
                    <h2>Envolvendo</h2>
-                   <p class="p-html">Nullam fringilla tellus nec lorem venenatis vestibulum. Nam consectetur leo et consectetur ullamcorper. Nunc finibus id diam quis vestibulum.</p>
                    <p class="p-html">Aliquam consectetur justo fermentum, pellentesque risus eget, pellentesque leo. Pellentesque neque ante, feugiat sit amet mauris ac, malesuada interdum orci. Pellentesque at fermentum enim, at aliquet nisi. Praesent sagittis tempus nulla, in porta tortor finibus in.</p>
-                   <p class="p-html">Nullam tristique velit vitae tempus tempor.</p>
-                   <hr>
-                   <div class="autor-hr">
-                     <span>por: </span><a href="<?php echo $path; ?> comum/quem-somos.php">Guilherme Felipe</a>
-                        <div class="autor-bio">
-                            <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
-                        </div>
-                   </div>
                 </article>
            <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
                 <h1 class="more-this">MAIS SOBRE HTML & CSS:</h1>
@@ -119,6 +112,7 @@ a {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-1.php">ES6 - O que há de novo? O guia definitivo</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-2.php">React vs Ember vs Angular</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-5.php">VueJs Primeiros Passos</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -128,6 +122,8 @@ a {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-2.php">O que os desenvolvedores podem esperar em Android N?</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-3.php">Gerenciamento de dependência com o Gerenciador de Pacotes Swift</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-4.php">Retrofit, um cliente HTTP simples para Android e Java</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-5.php">Um passeio com Android Auto</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-6.php">Explorando Os Elementos UI Do Ubuntu Phone</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -140,6 +136,7 @@ a {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxe.php">Olhar simples</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxf.php">Os logos de 2016</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxg.php">Por que UX desing está relacionado mais com negócios do que com Desing?</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">Conheça o projeto UXnoBrasil.org</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">O projeto UX no Brasil.org</a></li>
                 </ul>
-            </aside>  <?php include '../../../templates/footer.php'; ?>
+            </aside>
+<?php include '../../../templates/footer.php'; ?>

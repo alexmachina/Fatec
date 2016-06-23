@@ -3,26 +3,35 @@
 .faixa-post {
     background-color: #E97F02;
     height: 80%;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    border: 3px solid;
     margin-top: 1%;
 }
 
 .glyphicon-calendar {
-    padding-left: 5%;
+    padding-left: 2%;
     margin-bottom: 2%;
 }
 
-.nome-autor {
-    color: #fff;
-}
-.foto-autor {
-    border-radius: 50%;
-    width:25px;
+.div-bio-autorh {
+    background-color: white;
+    border: 1px solid;
+    width: 75%;
+    height: 50%;
+    margin: 1% 0% 0% 12.5%;
 }
 
-.container-post{
+.bio-autorh {
+    margin: -7% 1% 0% 35%;
+    font-size: 120%;
+}
+
+.foto-autor {
+    margin: 1% -10% 0% 15%;
+    border-radius: 50%;
+    width: 67px;
+}
+
+.container-post {
     height: 0%;
     width: 50%;
     background-color: white;
@@ -62,14 +71,6 @@
 
 .data { font-family: Helvetica; }
 
-footer { clear: both; }
-
-.autor-header {
-    color: #3a3a3a;
-}
-
-.autor-bio { color: black; }
-
 @media (min-width: 1px) and (max-width: 1199px) {
 
     .glyphicon-calendar {
@@ -83,6 +84,15 @@ footer { clear: both; }
     .cont-aside-html {
         width: 72%;
         margin: auto auto 2% 14%;
+    }
+    
+    .autorpost {
+        margin-left: 33%;
+    }
+    
+    .bio-autorh {
+        margin: 1% 0% 0% 0%;
+        padding: 0% 2% 0% 2%;
     }
     
     .container-post {
@@ -99,4 +109,11 @@ footer { clear: both; }
         margin: auto -2.3% auto -2.2%;
     }
     
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+    
+    .div-bio-autorh {
+        margin-top: 2%;
+    }
 }

@@ -8,9 +8,9 @@ include '../../templates/header.php'; ?>
 
             <div class="textoprincipalpostdesing col-xs-12 col-sm-12 col-md-8">
                 <article>
-                    <h1>Conheça o projeto UXnoBrasil.org</h1>
+                    <h1>O projeto UXnoBrasil.org</h1>
                     <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by , consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus egthe charms of pleasure of the moment, uis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at.</p>
-
+                    <img src="<?php echo $path; ?>img/ux/uxbrasil.png" class="imagem img img-responsive" alt="convite do avento comdata e local">
                     <p>consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non.</p>
                     <p>imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eg, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.Lorem ipsum dolor sit ame et, bibendum atso blinded by desirres, or else he endures pains to avoid worse pains</p>
                     <br>

@@ -65,17 +65,10 @@ Novo
 				dui finibus aliquam.
 
 			</p>
-			<div class="col-xs-12 col-sm-4 text-center img-js-post">
+			<div class="col-xs-12 col-sm-12 text-center img-js-post">
 
-					<img class="post-image" alt="Logo do ReactJs" src="<?php echo $path; ?>/img/javascript/emberjs.jpg" />
+					<img class="img img-responsive" alt="Logo do ReactJs" src="<?php echo $path; ?>/img/javascript/emberjs.jpg" />
 			</div>
-			<p>
-
-				Suspendisse accumsan nisl id tempus malesuada. Pellentesque vehicula risus
-				id ante ullamcorper dignissim. Nunc tristique mattis accumsan.
-				Curabitur tincidunt porttitor purus in ullamcorper.
-				Aliquam scelerisque vel dui ac
-			</p>
 		</div>
 		<div class="js code col-xs-12">
 			<p class="js code caption">

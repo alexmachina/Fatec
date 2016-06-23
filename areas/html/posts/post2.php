@@ -1,27 +1,33 @@
 <?php
 $path = "../../../";
 include '../../../templates/header.php'; ?>
+       
         <section class="container">
 	    <div class="row">
 	       <div class="faixa-post col-xs-12">
 	           <div class="titulo-container col-xs-12">
                 <h1 class="col xs-12">Como criar um site estático com o Metalsmith</h1>
                    <hr>
-                   <div class="autorpost col-xs-12"></div>
-                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
-                   <a href="<?php echo $path; ?>comum/quem-somos.php" class="nome-autor">Guilherme Felipe</a>
                    <div class="glyphicon glyphicon-calendar"><span class="data">14/05/2016</span>
                    </div>
                </div>
             </div>
         </div>
         </section>
+        <section>
+            <div class="div-bio-autorh">
+                <div class="autorpost">
+                   <img src="<?php echo $path; ?>img/quem-somos/guilherme.jpg" alt="Guilherme Felipe" class="foto-autor">
+                </div>
+                <div class="bio-autorh">
+                    <p><b>Guilherme Felipe</b>, o responsável pela área de HTML e CSS do NightTools, cursa o 2º semestre de Sistemas para Internet na FATEC de São Roque, é desenvolvedor iniciante, palmeirense e tem 18 anos. Gosta de praticar esportes, sair com os amigos e jogar videogame nas horas vagas.  Futuro Bill Gates.</p>
+                </div>
+            </div>
+        </section>
                <article class="container-post col-sm-3 col-xs-12 col-lg-offset-1">
                    <ul>
                    <li class="p-html">Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Suspendisse nec leo eleifend, ullamcorper elit ac, varius erat.</li>
                    <li class="p-html">Duis in justo maximus, efficitur justo in, bibendum erat. Nullam mollis fringilla lorem, quis condimentum nibh ullamcorper et.</li>
-                       <li class="p-html">Morbi a mauris rhoncus, luctus arcu a, imperdiet velit. Mauris sem lorem, <a href="#">iaculis</a> eu sagittis a, mattis eleifend tellus. Praesent sed ex at neque venenatis blandit.</li>
-                   <li class="p-html">Quisque sed eros ut neque viverra sodales sed eget turpis. Suspendisse posuere magna quis sem tempor tincidunt. Nunc vitae nunc ut turpis vehicula tempus.</li>
                    </ul>
                     <h2>Porquê Metalsmith?</h2>
                     <p class="p-html">Curabitur efficitur consequat porttitor. Suspendisse et massa malesuada, maximus augue a, cursus augue. Curabitur dignissim massa ipsum, at aliquet leo finibus ut. Pellentesque non arcu non mauris gravida fringilla. Nam eget magna massa.
@@ -300,13 +306,6 @@ gulp.task('html', function() {
                      </div>
                     <h2>Metalsmith é para você?</h2>
                    <p class="p-html">Aenean dictum enim vel nisi finibus fermentum. Pellentesque luctus porttitor erat in pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut venenatis velit quis ligula mollis placerat. Duis eu efficitur ipsum. Integer commodo justo sit amet auctor finibus. Ut ac dictum diam. Mauris nec ligula nisl. Pellentesque rhoncus, justo ut luctus placerat, eros nibh maximus felis, at accumsan nunc velit non justo. Aenean lacinia massa a rhoncus <a href="#">volutpat.</a></p>
-                       <hr>
-                       <div class="autor-hr">
-                        <span>por: </span><a href="<?php echo $path; ?> comum/quem-somos.php">Guilherme Felipe</a>
-                        <div class="autor-bio">
-                            <span>18 anos. Responsável pela área de "HTML e CSS" do site.</span>
-                        </div>
-                       </div>
                 </article>
            <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
                 <h1 class="more-this">MAIS SOBRE HTML & CSS:</h1>
@@ -326,6 +325,7 @@ gulp.task('html', function() {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-1.php">ES6 - O que há de novo? O guia definitivo</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-2.php">React vs Ember vs Angular</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-3.php">O que o TypeScript tem a ver com o C#?</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/javascript/posts/post-5.php">VueJs Primeiros Passos</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -335,6 +335,8 @@ gulp.task('html', function() {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-2.php">O que os desenvolvedores podem esperar em Android N?</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-3.php">Gerenciamento de dependência com o Gerenciador de Pacotes Swift</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-4.php">Retrofit, um cliente HTTP simples para Android e Java</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-5.php">Um passeio com Android Auto</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/mobile/posts/post-6.php">Explorando Os Elementos UI Do Ubuntu Phone</a></li>
                 </ul>
             </aside>
             <aside class="cont-aside-html col-xs-offset-1 col-xs-2">
@@ -347,7 +349,7 @@ gulp.task('html', function() {
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxe.php">Olhar simples</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxf.php">Os logos de 2016</a></li>
                     <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxg.php">Por que UX desing está relacionado mais com negócios do que com Desing?</a></li>
-                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">Conheça o projeto UXnoBrasil.org</a></li>
+                    <li class="links-aside"><a href="<?php echo $path; ?>areas/ux/postuxh.php">O projeto UX no Brasil.org</a></li>
                 </ul>
             </aside>
 

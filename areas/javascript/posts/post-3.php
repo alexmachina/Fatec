@@ -62,15 +62,7 @@ Novo
 				dui finibus aliquam.
 
 			</p>
-			<div class="col-xs-4 text-center img-js-post">
-				<figure>
-
-					<img class="post-image" src="<?php echo $path; ?>/img/javascript/csharp.png" />
-
-					<figcaption>
-						Neque porro quisquam est qui dolorem ipsum quia dolor
-					</figcaption>
-				</figure>
+			<div class="col-xs-12 text-center img-js-post">
 			</div>
 			<p>
 
