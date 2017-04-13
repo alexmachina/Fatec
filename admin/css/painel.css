@@ -1,0 +1,14 @@
+.panel-item{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#e3e3e3;
+  margin-right:25px;
+  margin-bottom:25px;
+  height:175px;
+}
+
+.panel-item:hover{
+  background-color:grey;
+  color:white;
+}
