@@ -43,6 +43,7 @@
         <div class="form-group">
           <label>Categoria</label>
           <select class="form-control" name="IdCategoria"> 
+            <option value="0">-- Selecione a Categoria --</option>
             <?php while($row =$categorias->fetch_assoc()) { ?>
             <option value="<?php echo $row['IdCategoria']; ?>"
 <?php if( isset($post) && $row['IdCategoria'] == $post['IdCategoria']) {
@@ -51,21 +52,24 @@ echo "selected"; } ?>
               <?php echo $row['nome']; ?>
             </option>
             <?php } ?>
-
           </select>
+      <span id="categoria-validation" class="validation"></span>
         <div class="form-group">
           <label>Titulo</label>
           <input type="text" name="titulo"
             value="<?php if(isset($post['titulo'])) { echo $post['titulo']; } ?>" class="form-control" />
+          <span id="titulo-validation" class="validation"></span>
         </div>
         <div class="form-group">
           <label>Texto</label>
           <textarea id="editor" name="texto" rows="10" class="form-control" ><?php if(isset($post['texto'])) { echo $post['texto']; } ?>
           </textarea>
+          <span id="texto-validation" class="validation"></span>
         </div>
       <button type="submit" class="btn btn-primary form-control">
         Salvar
       </button>
+<span id="message-span"></span>
       </form>
     </div>
   </div>

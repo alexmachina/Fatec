@@ -18,7 +18,7 @@
         </div>
         <div class="form-group">
           <label>Senha</label>
-          <input  name="password" type="text" class="form-control" />
+          <input type="password" name="password" type="text" class="form-control" />
         </div>
 
         <button type="submit" class="form-control btn btn-primary">
