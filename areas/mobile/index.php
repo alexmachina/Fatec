@@ -1,6 +1,9 @@
 <?php
 $path = "../../";
-include '../../templates/header.php'; ?>
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("../../templates/vetor.php"); 
+include '../../templates/header.php';
+?>
 <article class="container">
 	<div class="row"  id="row-faixa">
 		<section>
@@ -25,7 +28,7 @@ include '../../templates/header.php'; ?>
                      <img src="../../img/mobile/reapp-logo.png" alt="..." class="img-responsive">
 
                             <div class="caption">
-                                  <h3>CRIANDO UMA APLICAÇÃO MOBILE COM REAPP</h3>
+                                  <h3>Criando uma aplicação mobile com Reapp</h3>
                                </div>
                                     </a>
                                         </div>
@@ -49,7 +52,7 @@ include '../../templates/header.php'; ?>
                                                              <img src="../../img/mobile/swift.png" alt="..." class="img-responsive">
 
                                                                     <div class="caption">
-                                                                             <h3>Gerenciamento De Dependência Com O Gerenciador De Pacotes Swift</h3>
+                                                                             <h3>Gerenciamento de dependência com o gerenciador de pacotes Swift</h3>
                                                                        </div>
                                                                             </a>
                                                                                 </div>
@@ -60,7 +63,7 @@ include '../../templates/header.php'; ?>
                                                                          <img src="../../img/mobile/android%20auto%20celular.jpg" alt="..." class="img-responsive">
 
                                                                                 <div class="caption">
-                                                                                         <h3>Um Passeio Com Android Auto</h3>
+                                                                                         <h3>Um passeio com o Android Auto</h3>
                                                                                    </div>
                                                                                         </a>
                                                                                             </div>
@@ -70,7 +73,7 @@ include '../../templates/header.php'; ?>
                                                              <img src="../../img/mobile/ubuntophonelogo.jpg" alt="..." class="img-responsive">
 
                                                                     <div class="caption">
-                                                                             <h3>Explorando Os Elementos UI Do Ubuntu Phone</h3>
+                                                                             <h3>Explorando os elementos UI do Ubuntu Phone</h3>
                                                                        </div>
                                                                             </a>
                                                                                 </div>
@@ -81,7 +84,7 @@ include '../../templates/header.php'; ?>
                                                                              <img src="../../img/mobile/eu28828828.jpg" alt="..." class="img-responsive">
 
                                                                                     <div class="caption">
-                                                                                             <h3>Sobre o Autor.</h3>
+                                                                                             <h3>Sobre o Autor</h3>
                                                                                        </div>
                                                                                             </a>
                                                                                                 </div>

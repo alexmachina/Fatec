@@ -1,6 +1,9 @@
 <?php
 $path = "../../../";
-include '../../../templates/header.php'; ?>
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("../../../templates/vetor.php"); 
+include '../../../templates/header.php';
+?>
 
 
     <div class="container-fluid postGeral post6">
@@ -11,7 +14,7 @@ include '../../../templates/header.php'; ?>
          <div class="container">
          <div class="row">
 
-             <h1 class="text-center" id="topo">Explorando Os Elementos UI Do Ubuntu Phone</h1>
+             <h1 class="text-center" id="topo">Explorando os elementos UI do Ubuntu Phone</h1>
              <div class="thumbnail container">
              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
@@ -20,7 +23,7 @@ include '../../../templates/header.php'; ?>
              </div>
 
              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 caption">
-                     <h3>Eclair Pereria</h3>
+                     <h3>Ketlin Moura</h3>
 
                       <p> Cusando o segundo semestre de sistemas para internet na Fatec, na cidade de São Roque, busca conhecimentos para empreender na área de TI, com o foco em WEB. Nas horas vagas gosta de viajar, de games em geral, passa algumas horas desenhando ou na jogatina e nos finais de semanas gosta de passar o tempo livre com a familia e amigos.
 

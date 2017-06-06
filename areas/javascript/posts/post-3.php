@@ -1,6 +1,10 @@
 <?php
 $path = "../../../";
-include '../../../templates/header.php'; ?>
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("../../../templates/vetor.php"); 
+include '../../../templates/header.php';
+?>
+
 <article class="container">
 	<div class="row">
 		<div class="banner js col-xs-12">

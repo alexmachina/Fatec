@@ -1,5 +1,9 @@
-<?php $path= '../../';
-include '../../templates/header.php'; ?>
+<?php
+$path = "../../";
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("../../templates/vetor.php"); 
+include '../../templates/header.php';
+?>
 
 
 <div class="container">

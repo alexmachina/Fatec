@@ -1,12 +1,15 @@
 <?php
 $path = "../";
-include '../templates/header.php'; ?>
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("../templates/vetor.php"); 
+include '../templates/header.php';
+?>
 
     <div class="container">
     <!-- Page header -->
     <div class="page-header">
         <h1>Quem somos</h1>
-        <h3>Alunos e sessões</h2>
+        <h3>Alunos e sessões</h3>
     </div>
     <!-- /Page header -->
 
@@ -190,7 +193,7 @@ include '../templates/header.php'; ?>
 
         <!-- Separator -->
         <div class="separator text-muted">
-            <time><h4>Eclair</h4></time>
+            <time><h4>Ketlin Moura</h4></time>
         </div>
         <!-- /Separator -->
 
@@ -205,7 +208,7 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                <strong>R.A</strong> 26.50.83.15.23.028
+                <strong>R.A</strong> 26.50.83.15.23.029
             </div>
             <!-- /Body -->
 
@@ -222,7 +225,7 @@ include '../templates/header.php'; ?>
 
             <!-- Body -->
             <div class="panel-body">
-                <img class="img-responsive img-rounded" src="../img/quem-somos/eclair.jpg" />
+                <img class="img-responsive img-rounded" src="../img/quem-somos/ketlin.jpg" />
             </div>
             <!-- /Body -->
 
@@ -240,7 +243,7 @@ include '../templates/header.php'; ?>
 
             <!-- Heading -->
             <div class="panel-heading">
-                <h2 class="panel-title">Desenvolvedor e Criador do Logo</h2>
+                <h2 class="panel-title">Desenvolvedora e Criadora do Logo</h2>
             </div>
             <!-- /Heading -->
 
@@ -259,7 +262,7 @@ include '../templates/header.php'; ?>
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small>Estudante e exímio cabelereiro.</small>
+                <small>Com 28 anos é estagiária em redes, estudante determinada, amante de cinema, tecnologia e animais.</small>
             </div>
             <!-- /Footer -->
 
@@ -275,7 +278,7 @@ include '../templates/header.php'; ?>
 
         <!-- Separator -->
         <div class="separator text-muted">
-            <time><h4>Guilherme</h4></time>
+            <time><h4>Guilherme Felipe</h4></time>
         </div>
         <!-- /Separator -->
 
@@ -345,7 +348,7 @@ include '../templates/header.php'; ?>
 
             <!-- Footer -->
             <div class="panel-footer">
-                <small> Desenvolvedor iniciante, estudante, palmeirense e tem 18 anos. Futuro Bill Gates.</small>
+                <small> Desenvolvedor iniciante, estudante, palmeirense e tem 19 anos. Futuro Bill Gates.</small>
             </div>
             <!-- /Footer -->
 

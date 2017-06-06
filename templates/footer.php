@@ -5,11 +5,10 @@
 			<nav class="navbar nav">
 				<ul>
 					<li class="footer-title">Sobre</li>
-					<li><a href="<?php echo $path; ?>comum/quem-somos.php">Quem Somos</a></li>
-					<li><a href="<?php echo $path; ?>comum/parceiros.php">Parceiros</a></li>
-
-					<li><a href="<?php echo $path; ?>comum/normas.php">Normas de Utilização</a></li>
-					<li> <a href="<?php echo $path; ?>comum/contato.php">Contato</a></li>
+					<li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[1]; ?></a></li>
+					<li><a href="<?php echo $path; ?>comum/parceiros.php"><?php echo $vetIdioma[2]; ?></a></li>
+					<li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[3]; ?></a></li>
+					<li> <a href="<?php echo $path; ?>comum/contato.php"><?php echo $vetIdioma[4]; ?></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -18,10 +17,10 @@
 			<nav class="navbar nav">
 				<ul>
 					<li class="footer-title">Tópicos</li>
-					<li><a href="<?php echo $path; ?>areas/javascript/index.php">JavaScript</a></li>
-					<li><a href="<?php echo $path; ?>areas/ux/homeux.php">Design e UX</a></li>
-					<li><a href="<?php echo $path; ?>areas/html/html-e-css.php">HTML e CSS</a></li>
-					<li class=""><a href="<?php echo $path; ?>areas/mobile">Mobile</a></li>
+					<li><a href="<?php echo $path; ?>areas/javascript/index.php"><?php echo $vetIdioma[5]; ?></a></li>
+					<li><a href="<?php echo $path; ?>areas/ux/homeux.php"><?php echo $vetIdioma[6]; ?></a></li>
+					<li><a href="<?php echo $path; ?>areas/html/html-e-css.php"><?php echo $vetIdioma[7]; ?></a></li>
+					<li class=""><a href="<?php echo $path; ?>areas/mobile"><?php echo $vetIdioma[8]; ?></a></li>
 				</ul>
 			</nav>
 		</div>

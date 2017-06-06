@@ -37,7 +37,7 @@
         
      
         
-		<!-- CSS Eclair -->
+		<!-- CSS Ketlin -->
 		<link rel="stylesheet" href="<?php echo $path; ?>css/areas/mobile/index.css" media="all">
 
 	</head>
@@ -56,12 +56,17 @@
 						<div class="nav-comum col-lg-5 col-md-6 col-sm-8 col-xs-12">
 							<ul class="nav navbar-nav">
 								<li class="hidden"><a href="#">Contato</a></li>
-								<li><a href="<?php echo $path; ?>comum/quem-somos.php">Quem Somos</a></li>
-								<li><a href="<?php echo $path; ?>comum/normas.php">Normas De Utilização</a></li>
-								<li><a href="<?php echo $path;?>comum/parceiros.php">Parceiros</a></li>
-								<li><a href="<?php echo $path;?>comum/contato.php">Contato</a></li>
+								<li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[1]; ?></a></li>
+								<li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[2]; ?></a></li>
+								<li><a href="<?php echo $path;?>comum/parceiros.php"><?php echo $vetIdioma[3]; ?></a></li>
+								<li><a href="<?php echo $path;?>comum/contato.php"><?php echo $vetIdioma[4]; ?></a></li>
 							</ul>
 						</div>
+                        <div>
+                            <a href='?idioma=pt'><img src="<?php echo $path; ?>img/pt.png"></a>&nbsp;&nbsp;
+                            <a href='?idioma=eng'><img src="<?php echo $path; ?>img/eng.png"></a>&nbsp;&nbsp;
+                            <a href='?idioma=esp'><img src="<?php echo $path; ?>img/esp.png"></a>&nbsp;&nbsp;
+                        </div>
 					</div>
 				</nav>
 			</div>
@@ -86,22 +91,22 @@
 						>
 						<li><a href="<?php echo $path; ?>areas/javascript/index.php">
 							<span class="glyphicon glyphicon-dot green"></span>
-							JavaScript</a></li>
+							<?php echo $vetIdioma[5]; ?></a></li>
 							<li><a href="<?php echo $path; ?>areas/ux/homeux.php"><span class="glyphicon glyphicon-dot purple"></span>
-								Design e UX</a></li>
+								<?php echo $vetIdioma[6]; ?></a></li>
 								<li><a href="<?php echo $path; ?>areas/html/html-e-css.php"><span class="glyphicon glyphicon-dot orange"></span>
-									HTML e CSS</a></li>
+									<?php echo $vetIdioma[7]; ?></a></li>
 									<li><a href="<?php echo $path; ?>areas/mobile/index.php"><span class="glyphicon glyphicon-dot yellow"></span>
-										Mobile</a></li>
+										<?php echo $vetIdioma[8]; ?></a></li>
 
 
 									</ul>
 									<hr>
 									<ul class="visible-xs nav navbar-nav nav-baixo">
-									<li><a href="<?php echo $path; ?>comum/contato.php">Contato</a></li>
-										<li><a href="<?php echo $path; ?>comum/quem-somos.php">Quem Somos</a></li>
-										<li><a href="<?php echo $path; ?>comum/normas.php">Normas de Utilização</a></li>
-										<li><a href="<?php echo $path; ?>comum/parceiros.php">Parceiros</a></li>
+									    <li><a href="<?php echo $path; ?>comum/contato.php"><?php echo $vetIdioma[1]; ?></a></li>
+										<li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[2]; ?></a></li>
+										<li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[3]; ?></a></li>
+										<li><a href="<?php echo $path; ?>comum/parceiros.php"><?php echo $vetIdioma[4]; ?></a></li>
 									</ul>
 							</div>
 
