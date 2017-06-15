@@ -1,12 +1,8 @@
 <?php 
-  $path="../";
-  include $path.'templates/header.php';
-  include $path.'config.php';
-  include $path.'conexao.php';
-  $query = 'SELECT IdCategoria, nome FROM Categorias';
-
-  $result = $con->query($query);
+$path = "../";
+include $path."templates/header.php";
 ?>
+
 <article class="container">
   <div class="row">
     <div class="col-xs-12 col-md-8 col-md-offset-2">
@@ -15,7 +11,16 @@
           Nova Categoria
         </button>
       </a>
+    <div id="categorias-table" />
 
+
+    </div>
+  </div>
+
+</article>
+
+<script id="table-template" type="text/x-handlebars-template">
+      <div id="table-template">
       <table class="table table-stripped">
         <thead>
           <tr>
@@ -25,26 +30,32 @@
         </thead>
 
         <tbody>
-          <?php 
-             while($row= $result->fetch_assoc()) {
-             ?>
+            {{#each categorias}}
              <tr>
-               <td><?php echo $row['nome'] ?></td>
+               <td>{{nome}}</td>
                <td>
-                 <a href="/admin/categorias/categoria.php?id=<?php echo $row['IdCategoria']; ?>">
+                 <a href="/admin/categorias/categoria.php?id={{IdCategoria}}">
                    <button class="btn btn-default">
                      <span class="glyphicon glyphicon-edit">
                    </button>
                  </a>
                </td>
              </tr>
-             <?php } ?>
-
+            {{/each}}
+            <ul class="pagination" id="categorias-pagination">
+            {{#times count activePage}}
+              {{#if this.active}}
+                <li class="active"><a href="#">{{this.page}}</a></li>
+              {{else}}
+                <li class=""><a href="#">{{this.page}}</a></li>
+              {{/if}}
+            {{/times}}
+            </ul>
+            
         </tbody>
       </table>
-    </div>
-  </div>
+      </div>
+</script>
 
-</article>
-
-<?php include $path.'templates/footer.php';
+<?php include $path.'templates/footer.php'; ?>
+<script src="<?php echo $path."js/categorias/categorias.js"; ?>"></script>

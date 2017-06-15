@@ -9,6 +9,7 @@
 </footer>
 </body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
 <script src="/admin/vendor/jquery/dist/jquery.min.js"></script>
 <script src="/admin/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
