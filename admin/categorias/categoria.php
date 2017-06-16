@@ -46,5 +46,5 @@
 
 
 <?php include $path.'templates/footer.php'; ?>
-<script src="/admin/js/categoria.js"></script>
+<script src="/admin/js/categorias/categoria.js"></script>
 

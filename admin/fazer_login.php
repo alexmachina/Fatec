@@ -5,18 +5,19 @@ require 'conexao.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$query = "SELECT IdUsuario FROM Usuarios WHERE username='".$username."' and password='".$password."';";
+$query = "SELECT IdUsuario, nome FROM Usuarios WHERE username='".$username."' and password='".$password."';";
 $result = $con->query($query);
 
 if($result->num_rows > 0) {
   session_start();
-  $_SESSION['logado'] = true; 
-  $_SESSION['IdUsuario'] = $result->fetch_assoc()['IdUsuario'];
-  echo $_SESSION['IdUsuario'];
-  header('Location: painel.php'); 
+  $usuario = $result->fetch_assoc();
+  $_SESSION['IdUsuario'] = $usuario['IdUsuario'];
+  http_response_code(200);
+
+  echo json_encode($usuario);
 
 } else {
-  header('Location: login.php');
+  http_response_code(404);
 }
 
 ?>

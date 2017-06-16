@@ -5,9 +5,7 @@ include $path."config.php";
 include $path."conexao.php";
 include $path."motumbo.php";
 
-$mot = new Motumbo("Usuarios",$con, false);
 
-$result = $mot->select(array("IdUsuario, nome"));
 
 ?>
 <article class="container">

@@ -1,57 +1,61 @@
 <?php 
   $path="../";
   include $path.'templates/header.php';
-  include $path.'config.php';
-  include $path.'conexao.php';
-
-  $query = 'Select Posts.IdPost, Categorias.nome as categoria, Posts.titulo from Posts ';
-  $query = $query. 'Inner Join Categorias on Posts.IdCategoria = Categorias.IdCategoria';
-  $result = $con->query($query);
-  if(!$result) {
-    echo $con->error;
-  }
-
-
 ?>
 
   <article class="container">
     <div class="row">
       <div class="col-xs-12">
-      <a href="post.php">
+       <a href="post.php">
         <button class="btn btn-primary">  
           Novo Post
         </button>
-      </a>
-        <table class="table table-stripped">
-          <thead>
-            <tr>
-              <th>Categoria</th>
-              <th>Titulo</th>
-              <th>Ações</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php while($row = $result->fetch_assoc()) { ?>
-            <tr>
-            <td><?php echo $row['categoria']; ?></td>
-            <td><?php echo $row['titulo']; ?></td>
-            <td>
-              <a href="post.php?id=<?php echo $row['IdPost']; ?>">
-              <button class="btn btn-default">
-                <span class="glyphicon glyphicon-edit" />
-              </button>
-              </a>
-
-            </td>
-            </tr>
-<?php } ?>
-          </tbody>
-        </table>
+        </a>
       </div>
     </div>
+    <div id="posts-table"></div>
   </article>
 
 
 <?php
   include $path.'templates/footer.php';
 ?>
+  <script src="<?php echo $path."js/posts/posts.js"; ?>"></script>
+  <script id="table-template" type="text/x-handlebars-template">
+  <table class="table table-stripped">
+    <thead>
+    <tr>
+    <th>Categoria</th>
+    <th>Titulo</th>
+    <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+  {{#each posts}}
+  <tr>
+    <td>{{categoria}}</td>
+    <td>{{titulo}}</td>
+    <td>
+    <a href="post.php?id={{IdPost}}">
+    <button class="btn btn-default">
+    <span class="glyphicon glyphicon-edit" />
+    </button>
+    </a>
+
+    </td>
+    </tr>
+  {{/each}}
+<ul class="pagination" id="posts-pagination">
+            {{#times count activePage}}
+              {{#if this.active}}
+                <li class="active"><a href="#">{{this.page}}</a></li>
+              {{else}}
+                <li class=""><a href="#">{{this.page}}</a></li>
+              {{/if}}
+            {{/times}}
+            </ul>
+
+  </tbody>
+  </table>
+
+  </script>

@@ -4,7 +4,7 @@ $path = '../';
 include $path.'config.php';
 include $path.'conexao.php';
 
-if(isset($_POST['IdPost']) && !empty($_POST['IdPost'])) {
+if(isset($_REQUEST['IdPost'])) {
   $IdPost = $_POST['IdPost'];
   $query = 'Update Posts Set titulo=?, texto=?, IdCategoria=? Where IdPost = ?';
   $stmt = $con->prepare($query);
@@ -12,21 +12,24 @@ if(isset($_POST['IdPost']) && !empty($_POST['IdPost'])) {
   $rc = $stmt->execute();
 
   if($rc == false) {
-    echo $stmt->error;
+    echo json_encode(["erro" => $stmt->error]);
   }
-  header('Location: post.php?id='.$IdPost);
+
+  echo json_encode(["message" => "Post atualizado"]);
 
 } else {
-  session_start();
   $query = 'Insert Into Posts(titulo, texto, IdAutor, IdCategoria) values(?,?,?,?)';
   $stmt = $con->prepare($query);
   $stmt->bind_param('sssi', $_POST['titulo'], $_POST['texto'], $_POST['IdAutor'], $_POST['IdCategoria']);
   $didExecute = $stmt->execute();
 
   if(!$didExecute) {
-    header("HTTP/1.1 500 Internal Server Error");
-    echo $stmt->error;
+    http_response_code(500);
+    echo json_encode(["erro" =>$stmt->error]);
   }
+
+  $IdPost = $con->insert_id;
+  echo json_encode(["IdPost" => $IdPost]);
     
 }
 
