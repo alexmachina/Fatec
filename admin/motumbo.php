@@ -10,7 +10,7 @@ class Motumbo {
     $this->conObj = $conObj;
   }
 
-  function select($campos, $condicoes, $sl) {
+  function select($campos, $condicoes, $sl = null) {
 
     $query = "SELECT ";
     for($i = 0; $i < sizeof($campos); $i++) {
@@ -110,7 +110,7 @@ class Motumbo {
     foreach($condicoes as $chave => $valor) {
       $i++;
       if ($i < sizeof($condicoes)) {
-        $query = $query . $chave ."=". valor.",";
+        $query = $query . $chave ."=". $valor.",";
       } else {
         $query = $query . $chave ."=". $valor;
       }

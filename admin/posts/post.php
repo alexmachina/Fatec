@@ -49,11 +49,19 @@
             {{/each}}
           </select>
       <span id="categoria-validation" class="validation"></span>
+        </div>
         <div class="form-group">
           <label>Titulo</label>
           <input type="text" name="titulo"
             value="{{post.titulo}}" class="form-control" />
           <span id="titulo-validation" class="validation"></span>
+        </div>
+        <div class="form-group">
+          <input type="file" name="imagem" />
+          {{#if post.imagem}}
+          <img src="{{post.imagem}}" class="img img-responsive" />
+          <input type="hidden" value="{{post.imagem}}" name="imagem-atual" />
+          {{/if}}
         </div>
         <div class="form-group">
           <label>Texto</label>

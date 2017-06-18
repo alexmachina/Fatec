@@ -4,7 +4,7 @@
   include $path."conexao.php";
   $IdPost = $_GET["id"];
   
-  $query = "Select c.IdCategoria, c.nome as categoria, p.titulo, p.texto, a.nome as autor, p.IdPost ";
+  $query = "Select c.IdCategoria, p.imagem, c.nome as categoria, p.titulo, p.texto, a.nome as autor, p.IdPost ";
 $query .= "from Posts p ";
 $query .= "Inner Join Categorias c on c.IdCategoria = p.IdCategoria ";
 $query .= "Inner Join Usuarios a on a.IdUsuario = p.IdAutor ";

@@ -47,7 +47,7 @@ if(isset($_GET["id"])) {
 <?php 
         if(isset($row["foto"]) and !empty($row["foto"])) { ?>
         <input name="foto-atual" type="hidden" value="<?php echo $row["foto"]; ?>"/>
-        <img class="img img-responsive" src="<?php echo $path.$row["foto"]; ?>" />
+        <img class="img img-responsive" src="<?php echo $row["foto"]; ?>" />
 <?php } ?>
 
         </div>
