@@ -13,4 +13,9 @@
 <script src="/admin/vendor/jquery/dist/jquery.min.js"></script>
 <script src="/admin/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>
+<script>
+  if (!Cookies.get('logado')) {
+    window.location.href = '/admin';
+}
+</script>
 </html>

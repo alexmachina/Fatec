@@ -307,3 +307,8 @@ a {
 	width:100%;
 
 }
+
+#post-image {
+  margin:0 auto;
+  margin-top:15px;
+}

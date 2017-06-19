@@ -40,11 +40,12 @@
 </footer>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
 <script src="<?php echo $path; ?>vendor/jquery/dist/jquery.min.js"></script>
 <script src="<?php echo $path; ?>vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="<?php echo $path; ?>vendor/prism/dist/js/prism.js"></script>
-<script src="<?php echo $path; ?>js/index.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"></script>
+<script src="/js/header.js"></script>
 
 </body>
 </html>

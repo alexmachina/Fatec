@@ -1,5 +1,6 @@
 <?php 
-$path = "";
+if(!isset($_GET['idioma'])){ $idioma = "pt";} else {$idioma = $_GET['idioma'];}
+require_once ("vetor.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,16 +53,16 @@ $path = "";
 						<div class="nav-header">
 							<div class="nav-title col-lg-3 col-lg-offset-4
 							col-sm-4">
-							<a class="nav-brand" href="<?php echo $path; ?>">
+							<a class="nav-brand" href="<?php echo $path."index.php?idioma=$idioma"; ?>">
 								<img alt="Logo do site nighttools com a palavra nighttools escrita" class="logo-comum" src="<?php echo $path; ?>img/logo-night-tools-b.png"></a>
 						</div>
 						<div class="nav-comum col-lg-5 col-md-6 col-sm-8 col-xs-12">
 							<ul class="nav navbar-nav">
 								<li class="hidden"><a href="#">Contato</a></li>
-								<li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[1]; ?></a></li>
-								<li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[2]; ?></a></li>
-								<li><a href="<?php echo $path;?>comum/parceiros.php"><?php echo $vetIdioma[3]; ?></a></li>
-								<li><a href="<?php echo $path;?>comum/contato.php"><?php echo $vetIdioma[4]; ?></a></li>
+                                                                <li><a href="<?php echo $path; ?>comum/quem-somos.php?idioma=<?php echo $idioma; ?>"><?php echo $vetIdioma[1]; ?></a></li>
+                                                                <li><a href="<?php echo $path; ?>comum/normas.php?idioma=<?php echo $idioma; ?>"><?php echo $vetIdioma[2]; ?></a></li>
+								<li><a href="<?php echo $path;?>comum/parceiros.php?idioma=<?php echo $idioma; ?>"><?php echo $vetIdioma[3]; ?></a></li>
+                                                                <li><a href="<?php echo $path;?>comum/contato.php?idioma=<?php echo $idioma; ?>"><?php echo $vetIdioma[4]; ?></a></li>
 							</ul>
 						</div>
                         <div>
@@ -88,32 +89,30 @@ $path = "";
 							<span class="icon-bar black"></span>
 						</button>
 					</div>
-					<div class="col-sm-8  col-xs-12 col-md-offset-3 col-lg-offset-3 col-sm-offset-3 collapse navbar-collapse" id="nav-baixo">
-						<ul class="nav navbar-nav nav-baixo"
-						>
-						<li><a href="<?php echo $path; ?>areas/javascript/index.php">
-							<span class="glyphicon glyphicon-dot green"></span>
-							<?php echo $vetIdioma[5]; ?></a></li>
-							<li><a href="<?php echo $path; ?>areas/ux/homeux.php"><span class="glyphicon glyphicon-dot purple"></span>
-								<?php echo $vetIdioma[6]; ?></a></li>
-								<li><a href="<?php echo $path; ?>areas/html/html-e-css.php"><span class="glyphicon glyphicon-dot orange"></span>
-									<?php echo $vetIdioma[7]; ?></a></li>
-									<li><a href="<?php echo $path; ?>areas/mobile/index.php"><span class="glyphicon glyphicon-dot yellow"></span>
-										<?php echo $vetIdioma[8]; ?></a></li>
+                                        <div class="col-sm-8  col-xs-12 col-md-offset-3 col-lg-offset-3 col-sm-offset-3 collapse navbar-collapse" id="nav-baixo">
+                                          <div id="render-menu"></div>
+                                                                                                                        <hr>
+                                                                        <ul class="visible-xs nav navbar-nav nav-baixo">
+                                                                            <li><a href="<?php echo $path; ?>comum/contato.php"><?php echo $vetIdioma[1]; ?></a></li>
+                                                                                <li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[2]; ?></a></li>
+                                                                                <li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[3]; ?></a></li>
+                                                                                <li><a href="<?php echo $path; ?>comum/parceiros.php"><?php echo $vetIdioma[4]; ?></a></li>
+                                                                        </ul>
+                                                        </div>
 
+                                                                </nav>
+                        </div>
+                                                </header>
 
-									</ul>
-									<hr>
-									<ul class="visible-xs nav navbar-nav nav-baixo">
-									    <li><a href="<?php echo $path; ?>comum/contato.php"><?php echo $vetIdioma[1]; ?></a></li>
-										<li><a href="<?php echo $path; ?>comum/quem-somos.php"><?php echo $vetIdioma[2]; ?></a></li>
-										<li><a href="<?php echo $path; ?>comum/normas.php"><?php echo $vetIdioma[3]; ?></a></li>
-										<li><a href="<?php echo $path; ?>comum/parceiros.php"><?php echo $vetIdioma[4]; ?></a></li>
-									</ul>
-							</div>
+                                        </div>
 
-								</nav>
-			</div>
-						</header>
+<script id="menu-template" type="text/x-handlebars-template">
+<ul class="nav navbar-nav nav-baixo">
+    {{#each categorias}}
+    <li><a href="/pages/categoria.php?id={{IdCategoria}}&idioma=<?php echo $idioma; ?>">
+        <span class="glyphicon glyphicon-dot green" style="color:{{cor}};"></span>
+  {{nome}}</a></li>
+    {{/each}}
+</ul>
 
-					</div>
+</script>

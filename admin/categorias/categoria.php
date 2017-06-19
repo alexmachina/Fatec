@@ -6,7 +6,7 @@
   if(isset($_GET['id'])) {
   $IdCategoria = $_GET['id'];
 
-  $query = "Select nome, descricao from Categorias where IdCategoria=".$IdCategoria;
+  $query = "Select nome, descricao, cor from Categorias where IdCategoria=".$IdCategoria;
   $result = mysqli_query($con, $query);
   $row = mysqli_fetch_row($result);
   }
@@ -34,6 +34,10 @@
           <input id="campo-descricao" type="text" value="<?php if(isset($row[1])) { echo $row[1]; } ?>" class="form-control" name="descricao" />
         </div>
         <span id="message-span"></span>
+        <div class="form-group">
+          <label>Cor</label>
+          <input id="campo-cor" type="text" value="<?php if(isset($row[2])) { echo $row[2]; } ?>" class="form-control" name="cor" />
+        </div>
         <button type="submit" class="form-control btn btn-primary">
           Salvar
         </button>
